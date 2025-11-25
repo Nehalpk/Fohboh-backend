@@ -1,0 +1,55 @@
+name: Deploy via Self-Hosted Runner
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, prod] # Run on self-hosted runner
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Create .env file from GitHub Secrets
+        run: |
+          echo "${{ secrets.DOCKER_ENV_FILE }}" > /home/ubuntu/actions-runner-prod/fohboh-prod/fohboh-python-backend/fohboh-python-backend/.env
+          echo ".env file created successfully."
+
+      - name: Stop and Remove Existing Containers
+        run: |
+          echo "Stopping and removing existing containers..."
+          cd /home/ubuntu/actions-runner-prod/fohboh-prod/fohboh-python-backend/fohboh-python-backend || { echo "Project folder not found!"; exit 1; }
+          # Stop and remove backend container if exists
+          if sudo docker ps -q --filter "name=backend" | grep -q . || sudo docker ps -q --filter "name=redis-server" | grep -q .; then
+            sudo docker-compose down
+            echo "Stopped and removed containers via docker-compose down"
+          else
+            echo "No running backend containers found"
+          fi
+
+      - name: Build & Run Docker Containers
+        run: |
+          cd /home/ubuntu/actions-runner-prod/fohboh-prod/fohboh-python-backend/fohboh-python-backend || { echo "Project folder not found!"; exit 1; }
+          
+          # Build and run the containers in detached mode
+          sudo docker-compose build
+          sudo docker-compose up -d
+
+      - name: Cleanup Old Docker Images
+        run: |
+          echo "Removing old unused Docker images..."
+          sudo docker image prune -af
+          echo "Cleanup completed!"
+
+  nginx:
+    runs-on: [self-hosted, prod]
+    needs: deploy
+    steps:
+      - name: Nginx Configuration
+        run: |
+          sudo nginx -t
+          sudo systemctl restart nginx

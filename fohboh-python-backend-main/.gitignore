@@ -1,0 +1,10 @@
+.venv/
+test.ipynb
+test.py
+__pycache__
+chat_history.json
+.vscode
+/Test Data/
+/dummy/
+/cortex_memory/
+/Test files/

@@ -1,0 +1,13 @@
+pip install fastapi uvicorn python-multipart pydantic boto3 pandas psycopg2-binary PyPDF2 python-docx openpyxl
+pip install PyJWT
+pip install passlib
+pip install python-dotenv
+pip install requests
+pip install anthropic
+pip install pdfminer.six
+pip install bcrypt
+pip install docx
+pip install openpyxl
+pip install scipy
+pip install stripe
+mkdir -p uploads/profile_images

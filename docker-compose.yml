@@ -1,0 +1,30 @@
+version: "3.9"
+
+networks:
+  backend-network:
+    external: true  # assuming the network is already created externally
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis-server
+    restart: always
+    networks:
+      - backend-network
+    ports:
+      - "6379:6379"  # expose redis port for testing (optional)
+
+  backend:
+    build:
+      context: /home/ubuntu/actions-runner-staging/backend-staging/fohboh-python-backend/fohboh-python-backend  # Adjust path based on your repo
+      dockerfile: Dockerfile
+    container_name: backend
+    restart: always
+    env_file:
+      - /home/ubuntu/actions-runner-staging/backend-staging/fohboh-python-backend/fohboh-python-backend/.env  # Adjust path if necessary
+    networks:
+      - backend-network
+    ports:
+      - "8000:8000"  # adjust according to your backend app port
+    depends_on:
+      - redis

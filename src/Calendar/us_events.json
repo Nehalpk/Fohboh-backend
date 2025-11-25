@@ -1,0 +1,3776 @@
+[
+  {
+    "date": "2025-01-01",
+    "event": "New Year's Day (All)",
+    "suggested_offer": "🎉 New Year Feast: 20% off your entire meal! 🥂",
+    "campaign_prompt": "Suggest idea for New Year's Day grand feast promo"
+  },
+  {
+    "date": "2025-01-01",
+    "event": "New Year's Day",
+    "suggested_offer": "🥳 Start Fresh Brunch: Buy one get one free! 🍳",
+    "campaign_prompt": "Create a catchy offer for New Year's Day brunch"
+  },
+  {
+    "date": "2025-01-02",
+    "event": "Last Day of Chanukah",
+    "suggested_offer": "🕎 Chanukah Celebration: 15% off all kosher dishes! 🍽️",
+    "campaign_prompt": "Idea for Last Day of Chanukah festive menu deal"
+  },
+  {
+    "date": "2025-01-04",
+    "event": "World Braille Day",
+    "suggested_offer": "📚 Inclusive Dining: Free dessert for guests sharing stories! 🍰",
+    "campaign_prompt": "Suggest campaign highlighting World Braille Day inclusivity"
+  },
+  {
+    "date": "2025-01-06",
+    "event": "Epiphany",
+    "suggested_offer": "⭐ Epiphany Feast: 10% off your meal + complimentary drink! 🍷",
+    "campaign_prompt": "Creative promo idea for Epiphany celebration"
+  },
+  {
+    "date": "2025-01-07",
+    "event": "Orthodox Christmas Day",
+    "suggested_offer": "🎄 Orthodox Christmas Special: Family platter at 25% off! 🍖",
+    "campaign_prompt": "Generate attractive offer for Orthodox Christmas family meal"
+  },
+  {
+    "date": "2025-01-07",
+    "event": "International Programmers' Day",
+    "suggested_offer": "💻 Code & Dine: Programmers get 15% off on presentation of ID! 🍔",
+    "campaign_prompt": "Suggest deal idea for International Programmers' Day"
+  },
+  {
+    "date": "2025-01-07",
+    "event": "Estelle Reel Day",
+    "region": "Wyoming",
+    "suggested_offer": "🌟 Wyoming Special: 10% off for all locals today! 🍽️",
+    "campaign_prompt": "Creative local promo for Estelle Reel Day in Wyoming"
+  },
+  {
+    "date": "2025-01-08",
+    "event": "Battle of New Orleans",
+    "region": "Louisiana",
+    "suggested_offer": "🎺 Louisiana Flavors: 20% off Cajun dishes! 🍤",
+    "campaign_prompt": "Campaign idea celebrating Battle of New Orleans with Cajun specials"
+  },
+  {
+    "date": "2025-01-09",
+    "event": "National Day of Mourning for Jimmy Carter",
+    "suggested_offer": "🕯️ Reflect & Dine: 10% off comfort food specials 🥘",
+    "campaign_prompt": "Offer idea for respectful National Day of Mourning promotion"
+  },
+  {
+    "date": "2025-01-10",
+    "event": "Asarah B'Tevet",
+    "suggested_offer": "🙏 Asarah B'Tevet: Light snacks with 15% off 🥙",
+    "campaign_prompt": "Suggest solemn menu offer for Asarah B'Tevet"
+  },
+  {
+    "date": "2025-01-13",
+    "event": "Stephen Foster Memorial Day",
+    "suggested_offer": "🎶 Folk Feast: 10% off traditional American dishes! 🍗",
+    "campaign_prompt": "Create a folk-inspired menu deal for Stephen Foster Day"
+  },
+  {
+    "date": "2025-01-14",
+    "event": "Orthodox New Year",
+    "suggested_offer": "🎉 Orthodox New Year Bash: 20% off group meals! 🍽️",
+    "campaign_prompt": "Idea for Orthodox New Year group dining promotion"
+  },
+  {
+    "date": "2025-01-19",
+    "event": "World Religion Day",
+    "suggested_offer": "🌏 Unity Platter: Diverse cuisines with 15% off! 🍱",
+    "campaign_prompt": "Suggest multicultural offer for World Religion Day"
+  },
+  {
+    "date": "2025-01-19",
+    "event": "Robert E. Lee's Birthday",
+    "region": "Florida",
+    "suggested_offer": "🌿 Florida Heritage Menu: 10% off local favorites! 🍤",
+    "campaign_prompt": "Campaign idea celebrating Florida's heritage"
+  },
+  {
+    "date": "2025-01-19",
+    "event": "Confederate Heroes' Day",
+    "region": "Texas",
+    "suggested_offer": "🤠 Texas BBQ Deal: 15% off all BBQ platters! 🍖",
+    "campaign_prompt": "Texas-style BBQ promo for Confederate Heroes' Day"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Martin Luther King Jr. Day (All)",
+    "suggested_offer": "✊ Unity Feast: 20% off community meals! 🍲",
+    "campaign_prompt": "Promote inclusivity with MLK Jr. Day special offers"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Martin Luther King Jr. Day",
+    "suggested_offer": "✊ Dream Big Brunch: 15% off all brunch items! 🥞",
+    "campaign_prompt": "Creative brunch offer for MLK Jr. Day"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Robert E. Lee's Birthday",
+    "region": "Alabama, Mississippi",
+    "suggested_offer": "🌾 Southern Comfort: 10% off traditional southern dishes! 🍗",
+    "campaign_prompt": "Southern-style menu deal for Robert E. Lee's Birthday"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Idaho Human Rights Day",
+    "region": "Idaho",
+    "suggested_offer": "🤝 Idaho Together: 15% off shared platters! 🍛",
+    "campaign_prompt": "Inclusive offer for Idaho Human Rights Day"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Civil Rights Day",
+    "region": "Arizona, New Hampshire",
+    "suggested_offer": "✊ Civil Rights Celebration: 15% off vegan & soul food! 🥗",
+    "campaign_prompt": "Soul food and vegan specials for Civil Rights Day"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Inauguration Day",
+    "region": "District of Columbia",
+    "suggested_offer": "🇺🇸 Inauguration Day Special: 10% off patriotic platters! 🍔",
+    "campaign_prompt": "Celebrate Inauguration Day with patriotic dishes"
+  },
+  {
+    "date": "2025-01-20",
+    "event": "Inauguration Day",
+    "region": "DC, MD, VA",
+    "suggested_offer": "🇺🇸 Capital Flavors: 15% off regional favorites! 🍲",
+    "campaign_prompt": "Regional menu deal for Inauguration Day"
+  },
+  {
+    "date": "2025-01-24",
+    "event": "International Day of Education",
+    "suggested_offer": "📚 Study Fuel: 10% off brain-boosting meals! 🥗",
+    "campaign_prompt": "Create smart eating offers for Education Day"
+  },
+  {
+    "date": "2025-01-26",
+    "event": "International Customs Day",
+    "suggested_offer": "🌍 Global Bites: 15% off international dishes! 🍣",
+    "campaign_prompt": "Celebrate global flavors for International Customs Day"
+  },
+  {
+    "date": "2025-01-26",
+    "event": "World Leprosy Day",
+    "suggested_offer": "🤝 Support & Dine: 10% donated to charity with every meal 🍽️",
+    "campaign_prompt": "Suggest charity-focused campaign for World Leprosy Day"
+  },
+  {
+    "date": "2025-01-27",
+    "event": "World Holocaust Victims Remembrance Day",
+    "suggested_offer": "🕯️ Remember & Reflect: 10% off comfort meals 🥘",
+    "campaign_prompt": "Respectful meal offer for Holocaust Remembrance Day"
+  },
+  {
+    "date": "2025-01-28",
+    "event": "Isra and Mi'raj",
+    "suggested_offer": "🌙 Night Journey Special: 15% off light meals 🌮",
+    "campaign_prompt": "Create offer for Isra and Mi'raj observance"
+  },
+  {
+    "date": "2025-01-29",
+    "event": "Kansas Day",
+    "region": "Kansas",
+    "suggested_offer": "🌻 Kansas Proud: 10% off local farm-to-table dishes! 🥩",
+    "campaign_prompt": "Local Kansas produce deal for Kansas Day"
+  },
+  {
+    "date": "2025-01-29",
+    "event": "Lunar New Year",
+    "region": "California, Washington",
+    "suggested_offer": "🐉 Lunar New Year Feast: 20% off Asian specialties! 🍜",
+    "campaign_prompt": "Celebrate Lunar New Year with Asian cuisine deals"
+  },
+  {
+    "date": "2025-01-29",
+    "event": "Lunar New Year",
+    "suggested_offer": "🐲 Celebrate Lunar New Year: Dumpling specials & 15% off! 🥟",
+    "campaign_prompt": "Creative Lunar New Year dumpling promo"
+  },
+  {
+    "date": "2025-02-01",
+    "event": "National Freedom Day",
+    "suggested_offer": "🗽 Freedom Feast: 10% off all meals! 🍔",
+    "campaign_prompt": "Offer to celebrate National Freedom Day"
+  },
+  {
+    "date": "2025-02-01",
+    "event": "First Day of Black History Month",
+    "suggested_offer": "✊ Black History Month: Soul food specials at 15% off! 🍗",
+    "campaign_prompt": "Soul food deal for Black History Month kickoff"
+  },
+  {
+    "date": "2025-02-02",
+    "event": "World Wetlands Day",
+    "suggested_offer": "🌿 Fresh & Green: 10% off salads and vegetarian dishes! 🥗",
+    "campaign_prompt": "Eco-friendly menu promotion for World Wetlands Day"
+  },
+  {
+    "date": "2025-02-02",
+    "event": "Groundhog Day",
+    "suggested_offer": "🐾 Groundhog Day Special: 2-for-1 comfort meals! 🍕",
+    "campaign_prompt": "Fun Groundhog Day buy one get one offer"
+  },
+  {
+    "date": "2025-02-04",
+    "event": "International Day of Human Fraternity",
+    "suggested_offer": "🤝 Unity Menu: Share meals & get 15% off! 🍽️",
+    "campaign_prompt": "Promote togetherness for International Day of Human Fraternity"
+  },
+  {
+    "date": "2025-02-04",
+    "event": "World Cancer Day",
+    "suggested_offer": "🎗️ Hope Special: 10% proceeds donated with every meal 🍲",
+    "campaign_prompt": "Charity campaign idea for World Cancer Day"
+  },
+  {
+    "date": "2025-02-04",
+    "event": "Rosa Parks Day",
+    "region": "CA, MO, NY",
+    "suggested_offer": "✊ Rosa Parks Tribute: 15% off classic southern dishes 🍗",
+    "campaign_prompt": "Honor Rosa Parks with southern cuisine specials"
+  },
+  {
+    "date": "2025-02-05",
+    "event": "National Girls and Women in Sports Day",
+    "suggested_offer": "🏅 Power Plates: 15% off high-energy meals! 🥗",
+    "campaign_prompt": "Offer to celebrate National Girls and Women in Sports Day"
+  },
+  {
+    "date": "2025-02-06",
+    "event": "International Day of Zero Tolerance for Female Genital Mutilation",
+    "suggested_offer": "🚫 Stand Strong: 10% donation with every meal served 💪",
+    "campaign_prompt": "Charity-focused promo for zero tolerance day"
+  },
+  {
+    "date": "2025-02-06",
+    "event": "Ronald Reagan Day",
+    "region": "California",
+    "suggested_offer": "🇺🇸 Reagan's Favorites: 10% off American classics! 🍔",
+    "campaign_prompt": "Offer celebrating Ronald Reagan Day in California"
+  },
+  {
+    "date": "2025-02-07",
+    "event": "Lunar New Year",
+    "region": "Colorado",
+    "suggested_offer": "🐲 Lunar Delights: 15% off Asian-inspired meals! 🍜",
+    "campaign_prompt": "Lunar New Year celebration offer for Colorado"
+  },
+  {
+    "date": "2025-02-07",
+    "event": "National Wear Red Day",
+    "suggested_offer": "❤️ Heart Healthy: 15% off red-themed dishes! 🍓",
+    "campaign_prompt": "Create heart-healthy food deals for Wear Red Day"
+  },
+  {
+    "date": "2025-02-09",
+    "event": "Super Bowl",
+    "suggested_offer": "🏈 Game Day Feast: 20% off wings & appetizers! 🍗",
+    "campaign_prompt": "Super Bowl special deal on game day favorites"
+  },
+  {
+    "date": "2025-02-10",
+    "event": "World Pulses Day",
+    "suggested_offer": "🌱 Pulse Power: 10% off all plant-based dishes! 🥙",
+    "campaign_prompt": "Promote pulses and plant-based meals for World Pulses Day"
+  },
+  {
+    "date": "2025-02-11",
+    "event": "International Day of Women and Girls in Science",
+    "suggested_offer": "🔬 Smart Bites: 15% off brain-boosting meals! 🥗",
+    "campaign_prompt": "Science-themed food promo for this day"
+  },
+  {
+    "date": "2025-02-11",
+    "event": "World Day of the Sick",
+    "suggested_offer": "💙 Comfort Care: 10% off healing soups and broths! 🍲",
+    "campaign_prompt": "Warm meal offers for World Day of the Sick"
+  },
+  {
+    "date": "2025-02-12",
+    "event": "Lincoln's Birthday",
+    "region": "CT, IL, MO, NY",
+    "suggested_offer": "🎩 Lincoln's Legacy: 10% off traditional American fare! 🍖",
+    "campaign_prompt": "Offer for Lincoln's Birthday honoring tradition"
+  },
+  {
+    "date": "2025-02-12",
+    "event": "Lincoln's Birthday",
+    "region": "Florida",
+    "suggested_offer": "🎩 Presidential Plate: 10% off all meals! 🍔",
+    "campaign_prompt": "Campaign idea for Lincoln's Birthday in Florida"
+  },
+  {
+    "date": "2025-02-12",
+    "event": "Georgia Day",
+    "region": "Georgia",
+    "suggested_offer": "🍑 Georgia Peach Special: 15% off southern-inspired dishes! 🍗",
+    "campaign_prompt": "Celebrate Georgia Day with local flavors"
+  },
+  {
+    "date": "2025-02-13",
+    "event": "Tu Bishvat/Tu B'Shevat",
+    "suggested_offer": "🌳 Tree of Life: 15% off fresh fruit dishes! 🍇",
+    "campaign_prompt": "Promote healthy fruit-based menu for Tu Bishvat"
+  },
+  {
+    "date": "2025-02-13",
+    "event": "World Radio Day",
+    "suggested_offer": "📻 Tune In Special: Free appetizer with any entrée! 🍤",
+    "campaign_prompt": "Radio-themed promo for World Radio Day"
+  },
+  {
+    "date": "2025-02-14",
+    "event": "Valentine's Day",
+    "suggested_offer": "❤️ Love Feast: Couples get 20% off dinner for two! 🍷",
+    "campaign_prompt": "Romantic dining offers for Valentine's Day"
+  },
+  {
+    "date": "2025-02-14",
+    "event": "Statehood Day",
+    "region": "Arizona",
+    "suggested_offer": "🌵 Arizona Pride: 15% off southwestern dishes! 🌮",
+    "campaign_prompt": "Celebrate Arizona Statehood with local cuisine specials"
+  },
+  {
+    "date": "2025-02-15",
+    "event": "Susan B. Anthony's Birthday",
+    "region": "Florida, Wisconsin",
+    "suggested_offer": "👩 Empower Plates: 15% off women's favorite meals! 🍽️",
+    "campaign_prompt": "Offer honoring Susan B. Anthony with empowering meals"
+  },
+  {
+    "date": "2025-02-15",
+    "event": "Susan B. Anthony Day",
+    "region": "Colorado, New York",
+    "suggested_offer": "👩‍🎤 Women's Day Special: Free dessert for women! 🍰",
+    "campaign_prompt": "Special treats for Susan B. Anthony Day"
+  },
+  {
+    "date": "2025-02-16",
+    "event": "Elizabeth Peratrovich Day",
+    "region": "Alaska",
+    "suggested_offer": "❄️ Alaska Pride: 15% off wild game dishes! 🦌",
+    "campaign_prompt": "Celebrate Elizabeth Peratrovich Day with Alaskan flavors"
+  },
+  {
+    "date": "2025-02-17",
+    "event": "Presidents' Day",
+    "suggested_offer": "🇺🇸 Presidential Feast: 20% off all classic American meals! 🍔",
+    "campaign_prompt": "Offer for Presidents' Day honoring American classics"
+  },
+  {
+    "date": "2025-02-17",
+    "event": "Presidents' Day",
+    "region": "Most regions",
+    "suggested_offer": "🏛️ Leader's Choice: Free drink with entree purchase! 🍹",
+    "campaign_prompt": "Presidents' Day meal and drink combo deal"
+  },
+  {
+    "date": "2025-02-17",
+    "event": "Presidents‘ Day",
+    "region": "KS, LA, WI",
+    "suggested_offer": "🌟 State Leaders Special: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Local dish discount for Presidents' Day in KS, LA, WI"
+  },
+  {
+    "date": "2025-02-17",
+    "event": "Washington‘s Day",
+    "region": "KY, NC, RI",
+    "suggested_offer": "🌲 Washington Day: 15% off forest-themed meals! 🍄",
+    "campaign_prompt": "Offer inspired by Washington's Day"
+  },
+  {
+    "date": "2025-02-17",
+    "event": "Daisy Gatson Bates Day",
+    "region": "Arkansas",
+    "suggested_offer": "🌹 Arkansas Tribute: 15% off southern comfort food! 🍗",
+    "campaign_prompt": "Celebrate Daisy Gatson Bates Day with soul food specials"
+  },
+  {
+    "date": "2025-02-20",
+    "event": "World Day of Social Justice",
+    "suggested_offer": "⚖️ Justice Bites: 10% off community-sharing meals! 🍽️",
+    "campaign_prompt": "Offer promoting fairness and sharing for Social Justice Day"
+  },
+  {
+    "date": "2025-02-21",
+    "event": "International Mother Language Day",
+    "suggested_offer": "🌐 Global Flavors: 15% off international dishes! 🍜",
+    "campaign_prompt": "Celebrate linguistic diversity with global cuisine deals"
+  },
+  {
+    "date": "2025-02-25",
+    "event": "Maha Shivaratri",
+    "suggested_offer": "🕉️ Maha Shivaratri Feast: 20% off vegetarian delights! 🥗",
+    "campaign_prompt": "Vegetarian menu promotion for Maha Shivaratri"
+  },
+  {
+    "date": "2025-02-25",
+    "event": "African-American Scientist and Inventor Day",
+    "region": "Virginia",
+    "suggested_offer": "🔬 Genius Plates: 15% off innovative fusion dishes! 🍲",
+    "campaign_prompt": "Celebrate innovation with special fusion cuisine"
+  },
+  {
+    "date": "2025-02-25",
+    "event": "George Rogers Clark Day",
+    "region": "Indiana",
+    "suggested_offer": "🇺🇸 Indiana Heritage: 10% off hearty Midwestern meals! 🍖",
+    "campaign_prompt": "Promote Indiana regional dishes for George Rogers Clark Day"
+  },
+  {
+    "date": "2025-02-26",
+    "event": "Maha Shivaratri",
+    "suggested_offer": "🕉️ Maha Shivaratri Special: Complimentary chai with meal! ☕",
+    "campaign_prompt": "Offer chai special for Maha Shivaratri observance"
+  },
+  {
+    "date": "2025-02-28",
+    "event": "Linus Pauling Day",
+    "region": "Oregon",
+    "suggested_offer": "🔬 Science Bites: 10% off brain-boosting superfoods! 🥗",
+    "campaign_prompt": "Promote healthy, smart-eating meals for Linus Pauling Day"
+  },
+  {
+    "date": "2025-03-01",
+    "event": "First Day of Ramadan",
+    "suggested_offer": "🌙 Ramadan Iftar: 20% off evening meals! 🍽️",
+    "campaign_prompt": "Special iftar meal offer for Ramadan start"
+  },
+  {
+    "date": "2025-03-01",
+    "event": "Zero Discrimination Day",
+    "suggested_offer": "🤝 Everyone Eats: 15% off for all community members! 🍔",
+    "campaign_prompt": "Inclusive food deals for Zero Discrimination Day"
+  },
+  {
+    "date": "2025-03-01",
+    "event": "Self-Injury Awareness Day",
+    "suggested_offer": "💙 Healing Bites: 10% off comfort foods 🍲",
+    "campaign_prompt": "Comfort food specials promoting healing and awareness"
+  },
+  {
+    "date": "2025-03-01",
+    "event": "St. David's Day",
+    "suggested_offer": "🐉 Welsh Feast: 15% off traditional Welsh dishes! 🍖",
+    "campaign_prompt": "Celebrate St. David's Day with Welsh cuisine"
+  },
+  {
+    "date": "2025-03-01",
+    "event": "First Day of Women's History Month",
+    "suggested_offer": "👩‍🎤 Women's Month Kickoff: 15% off meals for women! 🍰",
+    "campaign_prompt": "Offer celebrating women for Women's History Month"
+  },
+  {
+    "date": "2025-03-01",
+    "event": "First Day of Irish American Heritage Month",
+    "suggested_offer": "☘️ Irish Flavors: 15% off Irish dishes! 🍀",
+    "campaign_prompt": "Irish-American heritage food deals"
+  },
+  {
+    "date": "2025-03-02",
+    "event": "Texas Independence Day",
+    "region": "Texas",
+    "suggested_offer": "🤠 Texas Pride: 20% off BBQ & Tex-Mex! 🌮",
+    "campaign_prompt": "Texas Independence Day BBQ and Tex-Mex specials"
+  },
+  {
+    "date": "2025-03-03",
+    "event": "World Wildlife Day",
+    "suggested_offer": "🌿 Wild Flavors: 15% off organic & sustainable dishes! 🥗",
+    "campaign_prompt": "Promote eco-friendly meals for World Wildlife Day"
+  },
+  {
+    "date": "2025-03-03",
+    "event": "Casimir Pulaski Day",
+    "region": "Illinois, Indiana",
+    "suggested_offer": "🇵🇱 Polish Pride: 15% off pierogi and Polish dishes! 🥟",
+    "campaign_prompt": "Celebrate Casimir Pulaski Day with Polish cuisine"
+  },
+  {
+    "date": "2025-03-03",
+    "event": "Read Across America Day",
+    "suggested_offer": "📚 Book & Bite: Free dessert with any kids meal! 🍦",
+    "campaign_prompt": "Family-friendly promotion for Read Across America Day"
+  },
+  {
+    "date": "2025-03-04",
+    "event": "Shrove Tuesday/Mardi Gras",
+    "suggested_offer": "🎭 Mardi Gras Madness: 20% off Cajun specials! 🍤",
+    "campaign_prompt": "Mardi Gras Cajun feast deal"
+  },
+  {
+    "date": "2025-03-04",
+    "event": "Casimir Pulaski Day",
+    "region": "Wisconsin",
+    "suggested_offer": "🇵🇱 Wisconsin Polish Feast: 15% off pierogi & kielbasa! 🍽️",
+    "campaign_prompt": "Polish cuisine promotion for Wisconsin"
+  },
+  {
+    "date": "2025-03-04",
+    "event": "Town Meeting Day",
+    "region": "Vermont",
+    "suggested_offer": "🍁 Vermont Local: 15% off farm-to-table meals! 🥩",
+    "campaign_prompt": "Celebrate Vermont local food for Town Meeting Day"
+  },
+  {
+    "date": "2025-03-05",
+    "event": "Ash Wednesday",
+    "suggested_offer": "🙏 Lent Special: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer vegetarian specials for Ash Wednesday"
+  },
+  {
+    "date": "2025-03-07",
+    "event": "Employee Appreciation Day",
+    "suggested_offer": "💼 Employee Treat: Free dessert for all staff! 🍰",
+    "campaign_prompt": "Show appreciation with freebies for employees"
+  },
+  {
+    "date": "2025-03-08",
+    "event": "International Women's Day",
+    "suggested_offer": "🌸 Women's Day Special: 20% off all meals for women! 🍽️",
+    "campaign_prompt": "Celebrate International Women's Day with special deals"
+  },
+  {
+    "date": "2025-03-09",
+    "event": "Daylight Saving Time starts",
+    "suggested_offer": "⏰ Spring Forward Brunch: 15% off all brunch items! 🥞",
+    "campaign_prompt": "Promote brunch with Daylight Saving Time start"
+  },
+  {
+    "date": "2025-03-10",
+    "event": "International Day of Women Judges",
+    "suggested_offer": "⚖️ Judge's Delight: 15% off all meals for women! 🍲",
+    "campaign_prompt": "Special deal honoring women judges"
+  },
+  {
+    "date": "2025-03-13",
+    "event": "World Kidney Day",
+    "suggested_offer": "💧 Kidney Care Menu: 10% off healthy, low-sodium dishes! 🥗",
+    "campaign_prompt": "Promote kidney-friendly meals for World Kidney Day"
+  },
+  {
+    "date": "2025-03-14",
+    "event": "Holi",
+    "suggested_offer": "🌈 Holi Colors Feast: 20% off vibrant Indian dishes! 🍛",
+    "campaign_prompt": "Celebrate Holi with colorful Indian cuisine specials"
+  },
+  {
+    "date": "2025-03-14",
+    "event": "Purim",
+    "suggested_offer": "🎭 Purim Party: 15% off festive Middle Eastern dishes! 🍢",
+    "campaign_prompt": "Purim themed food promotion"
+  },
+  {
+    "date": "2025-03-15",
+    "event": "Long Covid Awareness Day",
+    "suggested_offer": "💙 Healing Meals: 10% off nourishing dishes! 🍲",
+    "campaign_prompt": "Comforting food deals for Long Covid Awareness"
+  },
+  {
+    "date": "2025-03-17",
+    "event": "St. Patrick's Day",
+    "suggested_offer": "☘️ Lucky Feast: 20% off Irish specialties! 🍀",
+    "campaign_prompt": "St. Patrick's Day Irish food celebration deal"
+  },
+  {
+    "date": "2025-03-17",
+    "event": "Evacuation Day",
+    "region": "Massachusetts",
+    "suggested_offer": "🏞️ Massachusetts Pride: 15% off local dishes! 🍗",
+    "campaign_prompt": "Celebrate Massachusetts heritage with local flavors"
+  },
+  {
+    "date": "2025-03-20",
+    "event": "French Language Day",
+    "suggested_offer": "🥖 French Flavors: 15% off classic French dishes! 🧀",
+    "campaign_prompt": "French cuisine promo for French Language Day"
+  },
+  {
+    "date": "2025-03-20",
+    "event": "International Day of Happiness",
+    "suggested_offer": "😊 Happy Meals: 15% off comfort food favorites! 🍔",
+    "campaign_prompt": "Brighten moods with happiness-themed food deals"
+  },
+  {
+    "date": "2025-03-20",
+    "event": "March Equinox",
+    "suggested_offer": "🌸 Spring Feast: 20% off fresh seasonal dishes! 🥗",
+    "campaign_prompt": "Celebrate spring with fresh and light menu specials"
+  },
+  {
+    "date": "2025-03-21",
+    "event": "World Day to Eliminate Racial Discrimination",
+    "suggested_offer": "🤝 Unity Dinner: 15% off diverse cuisines! 🍽️",
+    "campaign_prompt": "Inclusive food deal promoting diversity"
+  },
+  {
+    "date": "2025-03-21",
+    "event": "World Poetry Day",
+    "suggested_offer": "📜 Poetry & Plates: Free dessert with any entree! 🍰",
+    "campaign_prompt": "Creative literary-themed dining offer"
+  },
+  {
+    "date": "2025-03-21",
+    "event": "International Day of Nowruz",
+    "suggested_offer": "🌿 Nowruz Feast: 20% off Persian specialties! 🍛",
+    "campaign_prompt": "Celebrate Nowruz with Persian cuisine deals"
+  },
+  {
+    "date": "2025-03-21",
+    "event": "World Down Syndrome Day",
+    "suggested_offer": "💙 Special Plates: 15% off meals for everyone! 🍽️",
+    "campaign_prompt": "Inclusive dining promotion for World Down Syndrome Day"
+  },
+  {
+    "date": "2025-03-21",
+    "event": "International Day of Forests",
+    "suggested_offer": "🌲 Forest Feast: 15% off dishes with wild ingredients! 🍄",
+    "campaign_prompt": "Promote wild and forest-inspired foods"
+  },
+  {
+    "date": "2025-03-22",
+    "event": "World Water Day",
+    "suggested_offer": "💧 Hydration Special: Free sparkling water with meals! 🥤",
+    "campaign_prompt": "Promote hydration with complimentary drinks"
+  },
+  {
+    "date": "2025-03-23",
+    "event": "World Meteorological Day",
+    "suggested_offer": "☁️ Weather Warmers: 15% off soups & stews! 🍲",
+    "campaign_prompt": "Seasonal warm meal offer for Meteorological Day"
+  },
+  {
+    "date": "2025-03-24",
+    "event": "World Tuberculosis Day",
+    "suggested_offer": "💙 Health Boost: 10% off immune-support meals! 🥗",
+    "campaign_prompt": "Promote healthy eating for World Tuberculosis Day"
+  },
+  {
+    "date": "2025-03-24",
+    "event": "World Day for Truth concerning Human Rights Violations",
+    "suggested_offer": "⚖️ Truth & Justice: 10% donation with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for human rights awareness"
+  },
+  {
+    "date": "2025-03-25",
+    "event": "Day to Remember Slavery Victims and Transatlantic Slave Trade",
+    "suggested_offer": "✊ Reflect & Dine: 10% off soul food specials 🍗",
+    "campaign_prompt": "Soul food tribute to remember history"
+  },
+  {
+    "date": "2025-03-25",
+    "event": "World Solidarity Day for Detained and Missing Workers",
+    "suggested_offer": "🤝 Solidarity Special: 10% off community meals! 🍛",
+    "campaign_prompt": "Offer promoting worker solidarity"
+  },
+  {
+    "date": "2025-03-25",
+    "event": "Maryland Day",
+    "region": "Maryland",
+    "suggested_offer": "🦀 Maryland Crab Feast: 15% off seafood! 🦐",
+    "campaign_prompt": "Celebrate Maryland Day with seafood specials"
+  },
+  {
+    "date": "2025-03-26",
+    "event": "Lailat al-Qadr",
+    "suggested_offer": "🌙 Night of Power: 15% off light & healthy meals 🌿",
+    "campaign_prompt": "Special offer for Lailat al-Qadr observance"
+  },
+  {
+    "date": "2025-03-26",
+    "event": "Prince Jonah Kuhio Kalanianaole Day",
+    "region": "Hawaii",
+    "suggested_offer": "🌺 Hawaiian Flavors: 15% off island dishes! 🍍",
+    "campaign_prompt": "Celebrate Hawaiian heritage with island cuisine"
+  },
+  {
+    "date": "2025-03-29",
+    "event": "Earth Hour",
+    "suggested_offer": "🌍 Earth Hour Special: 15% off sustainable meals! 🥗",
+    "campaign_prompt": "Eco-friendly dining deals for Earth Hour"
+  },
+  {
+    "date": "2025-03-29",
+    "event": "National Vietnam War Veterans Day",
+    "suggested_offer": "🇺🇸 Veteran's Feast: 15% off all meals for veterans! 🍽️",
+    "campaign_prompt": "Honor veterans with special discounts"
+  },
+  {
+    "date": "2025-03-30",
+    "event": "Eid al-Fitr",
+    "suggested_offer": "🌙 Eid Feast: 20% off all festive dishes! 🍲",
+    "campaign_prompt": "Celebrate Eid al-Fitr with a special feast offer"
+  },
+  {
+    "date": "2025-03-30",
+    "event": "Wyoming Veterans Welcome Home Day",
+    "region": "Wyoming",
+    "suggested_offer": "🎖️ Wyoming Veterans: 15% off all meals! 🍽️",
+    "campaign_prompt": "Special offer welcoming Wyoming veterans home"
+  },
+  {
+    "date": "2025-03-30",
+    "event": "Doctors' Day",
+    "suggested_offer": "🩺 Doctor's Delight: Free drink with any meal for medical staff! 🍹",
+    "campaign_prompt": "Appreciation offer for Doctors' Day"
+  },
+  {
+    "date": "2025-03-30",
+    "event": "Vietnam Veterans Day",
+    "region": "Delaware",
+    "suggested_offer": "🇺🇸 Delaware Veterans: 15% off all meals! 🍽️",
+    "campaign_prompt": "Special offer for Delaware Vietnam veterans"
+  },
+  {
+    "date": "2025-03-30",
+    "event": "Vietnam Veteran Recognition Day",
+    "region": "West Virginia",
+    "suggested_offer": "🇺🇸 WV Veterans: 15% off all meals! 🍲",
+    "campaign_prompt": "Recognition offer for West Virginia veterans"
+  },
+
+  {
+    "date": "2025-03-31",
+    "event": "Eid al-Fitr",
+    "suggested_offer": "🌙 Eid Celebration: 20% off all festive meals! 🍽️",
+    "campaign_prompt": "Celebrate Eid al-Fitr with a joyful feast offer"
+  },
+  {
+    "date": "2025-03-31",
+    "event": "International Transgender Day of Visibility",
+    "suggested_offer": "🏳️‍🌈 Visibility Special: 15% off rainbow-themed dishes! 🌈",
+    "campaign_prompt": "Promote inclusivity with Transgender Day of Visibility offers"
+  },
+  {
+    "date": "2025-03-31",
+    "event": "Seward's Day",
+    "region": "Alaska",
+    "suggested_offer": "❄️ Alaska Feast: 15% off wild game and seafood! 🐟",
+    "campaign_prompt": "Celebrate Seward's Day with Alaskan flavors"
+  },
+  {
+    "date": "2025-03-31",
+    "event": "César Chávez Day",
+    "region": "Many regions",
+    "suggested_offer": "🌱 Community Plates: 15% off Mexican-inspired dishes! 🌮",
+    "campaign_prompt": "Honor César Chávez with Mexican cuisine specials"
+  },
+  {
+    "date": "2025-03-31",
+    "event": "César Chávez Day",
+    "region": "Washington",
+    "suggested_offer": "🌯 Washington Special: 15% off Mexican food favorites! 🌶️",
+    "campaign_prompt": "Promote César Chávez Day with Mexican food deals in WA"
+  },
+  {
+    "date": "2025-04-01",
+    "event": "April Fool's Day",
+    "suggested_offer": "🤡 April Fools Fun: Mystery dish at 50% off! 🎉",
+    "campaign_prompt": "Create playful and fun promotions for April Fool's Day"
+  },
+  {
+    "date": "2025-04-02",
+    "event": "World Autism Awareness Day",
+    "suggested_offer": "💙 Awareness Special: 15% off calm & cozy meals! 🍲",
+    "campaign_prompt": "Promote calm dining experience for Autism Awareness"
+  },
+  {
+    "date": "2025-04-02",
+    "event": "Pascua Florida Day",
+    "region": "Florida",
+    "suggested_offer": "🌴 Florida Feast: 15% off seafood & tropical dishes! 🦞",
+    "campaign_prompt": "Celebrate Pascua Florida Day with tropical flavors"
+  },
+  {
+    "date": "2025-04-04",
+    "event": "Mine Awareness Day",
+    "suggested_offer": "🕯️ Reflect & Dine: 10% off hearty meals 🥘",
+    "campaign_prompt": "Offer respectful dining promotion for Mine Awareness Day"
+  },
+  {
+    "date": "2025-04-05",
+    "event": "International Day of Conscience",
+    "suggested_offer": "🤔 Mindful Meals: 15% off healthy dishes! 🥗",
+    "campaign_prompt": "Promote mindful eating for International Day of Conscience"
+  },
+  {
+    "date": "2025-04-06",
+    "event": "International Sport Day",
+    "suggested_offer": "🏅 Athlete’s Fuel: 15% off protein-packed meals! 🍗",
+    "campaign_prompt": "Sports nutrition specials for International Sport Day"
+  },
+  {
+    "date": "2025-04-06",
+    "event": "National Tartan Day",
+    "suggested_offer": "🏴 Scottish Pride: 15% off traditional Scottish dishes! 🥩",
+    "campaign_prompt": "Celebrate National Tartan Day with Scottish cuisine"
+  },
+  {
+    "date": "2025-04-07",
+    "event": "United Nations' World Health Day",
+    "suggested_offer": "🌍 Healthy Plates: 20% off balanced meals! 🥗",
+    "campaign_prompt": "Promote wellness with healthy meal offers"
+  },
+  {
+    "date": "2025-04-07",
+    "event": "Day to Remember Rwanda Genocide Victims",
+    "suggested_offer": "🕯️ Reflective Dinner: 10% off comforting meals 🥘",
+    "campaign_prompt": "Respectful promotion for remembrance day"
+  },
+  {
+    "date": "2025-04-08",
+    "event": "National Library Workers' Day",
+    "suggested_offer": "📚 Bookworm Special: Free dessert with any meal! 🍰",
+    "campaign_prompt": "Celebrate library workers with sweet treats"
+  },
+  {
+    "date": "2025-04-12",
+    "event": "Passover Eve",
+    "suggested_offer": "🌸 Passover Special: 15% off kosher dishes! 🍽️",
+    "campaign_prompt": "Offer for Passover Eve kosher meals"
+  },
+  {
+    "date": "2025-04-12",
+    "event": "International Day of Human Space Flight",
+    "suggested_offer": "🚀 Space Feast: 15% off cosmic-themed dishes! 🌌",
+    "campaign_prompt": "Creative space-themed food promotion"
+  },
+  {
+    "date": "2025-04-13",
+    "event": "Palm Sunday",
+    "suggested_offer": "🌿 Palm Sunday Special: 15% off fresh and light meals! 🥗",
+    "campaign_prompt": "Light meal offers for Palm Sunday"
+  },
+  {
+    "date": "2025-04-13",
+    "event": "Passover (first day)",
+    "suggested_offer": "🕯️ Passover Feast: 15% off kosher specialties! 🍲",
+    "campaign_prompt": "Kosher food promotion for Passover first day"
+  },
+  {
+    "date": "2025-04-13",
+    "event": "Thomas Jefferson's Birthday",
+    "suggested_offer": "🇺🇸 Jefferson's Favorites: 15% off American classics! 🍗",
+    "campaign_prompt": "Celebrate Thomas Jefferson's birthday with classic dishes"
+  },
+  {
+    "date": "2025-04-14",
+    "event": "World Chagas Disease Day",
+    "suggested_offer": "💙 Health Boost: 10% off immune-support dishes! 🥗",
+    "campaign_prompt": "Promote health-focused meals for Chagas Disease Day"
+  },
+  {
+    "date": "2025-04-15",
+    "event": "World Art Day",
+    "suggested_offer": "🎨 Art & Appetite: 15% off colorful, creative dishes! 🍱",
+    "campaign_prompt": "Creative food presentations for World Art Day"
+  },
+  {
+    "date": "2025-04-15",
+    "event": "Tax Day",
+    "suggested_offer": "💸 Tax Relief Special: 10% off your meal! 🍔",
+    "campaign_prompt": "Offer to ease the pain of Tax Day with discounts"
+  },
+  {
+    "date": "2025-04-15",
+    "event": "Father Damien Day",
+    "region": "Hawaii",
+    "suggested_offer": "👨‍👧 Dad’s Special: 15% off hearty meals for fathers! 🍖",
+    "campaign_prompt": "Celebrate fathers on Father Damien Day"
+  },
+  {
+    "date": "2025-04-16",
+    "event": "Emancipation Day",
+    "region": "District of Columbia",
+    "suggested_offer": "✊ Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Emancipation Day with soul food deals"
+  },
+  {
+    "date": "2025-04-17",
+    "event": "Maundy Thursday",
+    "suggested_offer": "🙏 Maundy Meal: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Vegetarian special for Maundy Thursday"
+  },
+  {
+    "date": "2025-04-18",
+    "event": "Orthodox Good Friday",
+    "suggested_offer": "✝️ Good Friday Special: 15% off fish and vegetarian dishes! 🐟",
+    "campaign_prompt": "Offer for Orthodox Good Friday observance"
+  },
+  {
+    "date": "2025-04-18",
+    "event": "International Day for Monuments and Sites",
+    "suggested_offer": "🏛️ Heritage Meals: 10% off traditional regional dishes! 🍽️",
+    "campaign_prompt": "Celebrate heritage with traditional dishes"
+  },
+  {
+    "date": "2025-04-18",
+    "event": "Good Friday",
+    "region": "Many regions",
+    "suggested_offer": "✝️ Good Friday Fish Feast: 15% off seafood! 🐟",
+    "campaign_prompt": "Special seafood offers for Good Friday"
+  },
+  {
+    "date": "2025-04-18",
+    "event": "Arbor Day",
+    "region": "Colorado",
+    "suggested_offer": "🌳 Arbor Day Special: 15% off plant-based dishes! 🥗",
+    "campaign_prompt": "Promote vegetarian meals for Arbor Day"
+  },
+  {
+    "date": "2025-04-18",
+    "event": "State Holiday",
+    "region": "Georgia",
+    "suggested_offer": "🍑 Georgia Local: 15% off southern cuisine! 🍗",
+    "campaign_prompt": "Celebrate Georgia state holiday with local flavors"
+  },
+  {
+    "date": "2025-04-19",
+    "event": "Holy Saturday",
+    "suggested_offer": "✝️ Holy Saturday Special: 10% off light meals! 🥗",
+    "campaign_prompt": "Light meal promotion for Holy Saturday"
+  },
+  {
+    "date": "2025-04-19",
+    "event": "Orthodox Holy Saturday",
+    "suggested_offer": "✝️ Orthodox Special: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Vegetarian meal offer for Orthodox Holy Saturday"
+  },
+  {
+    "date": "2025-04-20",
+    "event": "Last Day of Passover",
+    "suggested_offer": "🕯️ Passover Finale: 15% off kosher meals! 🍽️",
+    "campaign_prompt": "Celebrate last day of Passover with kosher specials"
+  },
+  {
+    "date": "2025-04-20",
+    "event": "Orthodox Easter",
+    "suggested_offer": "🐣 Orthodox Easter Feast: 20% off family meals! 🍗",
+    "campaign_prompt": "Family meal specials for Orthodox Easter"
+  },
+  {
+    "date": "2025-04-20",
+    "event": "Chinese Language Day",
+    "suggested_offer": "🇨🇳 Chinese Flavors: 15% off traditional dishes! 🍜",
+    "campaign_prompt": "Celebrate Chinese Language Day with authentic cuisine"
+  },
+  {
+    "date": "2025-04-20",
+    "event": "Easter Sunday",
+    "suggested_offer": "🐰 Easter Brunch: 20% off festive meals! 🍳",
+    "campaign_prompt": "Promote Easter Sunday brunch specials"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "Orthodox Easter Monday",
+    "suggested_offer": "🌸 Easter Monday Special: 15% off family-style meals! 🍲",
+    "campaign_prompt": "Family meal deals for Orthodox Easter Monday"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "World Creativity and Innovation Day",
+    "suggested_offer": "🎨 Creative Bites: 15% off fusion dishes! 🍣",
+    "campaign_prompt": "Promote creative cuisine for Innovation Day"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "Easter Monday",
+    "suggested_offer": "🐣 Easter Monday: 15% off brunch items! 🥞",
+    "campaign_prompt": "Easter Monday brunch specials"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "Patriots' Day",
+    "region": "Maine, Massachusetts",
+    "suggested_offer": "🇺🇸 Patriot Feast: 15% off New England classics! 🥧",
+    "campaign_prompt": "Celebrate Patriots' Day with regional cuisine"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "San Jacinto Day",
+    "region": "Texas",
+    "suggested_offer": "🤠 Texas BBQ Special: 20% off smoked meats! 🍖",
+    "campaign_prompt": "San Jacinto Day BBQ feast promotion"
+  },
+  {
+    "date": "2025-04-21",
+    "event": "Boston Marathon",
+    "suggested_offer": "🏃 Marathon Fuel: 15% off energy-packed meals! 🥗",
+    "campaign_prompt": "Offer healthy meals for Boston Marathon day"
+  },
+  {
+    "date": "2025-04-22",
+    "event": "Earth Day",
+    "suggested_offer": "🌍 Earth Day Special: 20% off plant-based dishes! 🥗",
+    "campaign_prompt": "Celebrate Earth Day with eco-friendly meals"
+  },
+  {
+    "date": "2025-04-22",
+    "event": "Oklahoma Day",
+    "region": "Oklahoma",
+    "suggested_offer": "🌾 Oklahoma Pride: 15% off local favorites! 🍔",
+    "campaign_prompt": "Celebrate Oklahoma Day with regional cuisine"
+  },
+  {
+    "date": "2025-04-23",
+    "event": "Yom HaShoah",
+    "suggested_offer": "🕯️ Reflective Meals: 15% off kosher dishes! 🍽️",
+    "campaign_prompt": "Respectful dining promotion for Yom HaShoah"
+  },
+  {
+    "date": "2025-04-23",
+    "event": "World Book and Copyright Day",
+    "suggested_offer": "📚 Literary Bites: Free dessert with any meal! 🍰",
+    "campaign_prompt": "Celebrate World Book Day with sweet treats"
+  },
+  {
+    "date": "2025-04-23",
+    "event": "World Spanish Language Day",
+    "suggested_offer": "🇪🇸 Spanish Flavors: 15% off tapas and paella! 🍤",
+    "campaign_prompt": "Celebrate Spanish Language Day with tapas specials"
+  },
+  {
+    "date": "2025-04-23",
+    "event": "English Language Day",
+    "suggested_offer": "☕ English Tea Time: 15% off afternoon tea & snacks! 🫖",
+    "campaign_prompt": "Promote English tea traditions on Language Day"
+  },
+  {
+    "date": "2025-04-23",
+    "event": "Administrative Professionals Day",
+    "suggested_offer": "💼 Admin Special: Free appetizer for administrative staff! 🍤",
+    "campaign_prompt": "Celebrate admin professionals with complimentary starters"
+  },
+  {
+    "date": "2025-04-24",
+    "event": "International Girls in ICT Day",
+    "suggested_offer": "👩‍💻 Tech Bites: 15% off high-energy meals! 🥗",
+    "campaign_prompt": "Celebrate girls in tech with smart nutrition offers"
+  },
+  {
+    "date": "2025-04-24",
+    "event": "International Day of Multilateralism and Diplomacy for Peace",
+    "suggested_offer": "✌️ Peace Feast: 15% off shared platters! 🍲",
+    "campaign_prompt": "Promote peace and sharing with communal meals"
+  },
+  {
+    "date": "2025-04-24",
+    "event": "Take our Daughters and Sons to Work Day",
+    "suggested_offer": "👨‍👩‍👧 Family Treat: Kids eat free with adult meal! 🍕",
+    "campaign_prompt": "Family-friendly offer for Take Our Daughters and Sons to Work Day"
+  },
+  {
+    "date": "2025-04-25",
+    "event": "International Delegate's Day",
+    "suggested_offer": "🌐 Delegate Deal: 15% off international cuisines! 🍣",
+    "campaign_prompt": "Offer global flavors for International Delegate's Day"
+  },
+  {
+    "date": "2025-04-25",
+    "event": "World Malaria Day",
+    "suggested_offer": "🦟 Fight Malaria: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity-focused campaign for World Malaria Day"
+  },
+  {
+    "date": "2025-04-25",
+    "event": "Arbor Day",
+    "region": "Nebraska",
+    "suggested_offer": "🌳 Nebraska Green: 15% off plant-based dishes! 🥗",
+    "campaign_prompt": "Promote vegetarian meals for Nebraska Arbor Day"
+  },
+  {
+    "date": "2025-04-25",
+    "event": "Arbor Day",
+    "region": "Arizona, Delaware",
+    "suggested_offer": "🌿 Green Day Special: 15% off vegan & vegetarian meals! 🥗",
+    "campaign_prompt": "Plant-based dish promotion for Arbor Day"
+  },
+  {
+    "date": "2025-04-26",
+    "event": "World Intellectual Property Day",
+    "suggested_offer": "💡 Creative Cuisine: 15% off signature dishes! 🍽️",
+    "campaign_prompt": "Highlight innovative menu items for IP Day"
+  },
+  {
+    "date": "2025-04-26",
+    "event": "International Chernobyl Disaster Remembrance Day",
+    "suggested_offer": "🕯️ Reflect & Dine: 10% off hearty meals 🥘",
+    "campaign_prompt": "Respectful meal promotion for remembrance day"
+  },
+  {
+    "date": "2025-04-26",
+    "event": "Confederate Memorial Day",
+    "region": "Florida",
+    "suggested_offer": "🌾 Southern Comfort: 15% off traditional dishes! 🍗",
+    "campaign_prompt": "Southern cuisine special for Confederate Memorial Day"
+  },
+  {
+    "date": "2025-04-28",
+    "event": "World Day for Safety and Health at Work",
+    "suggested_offer": "🛡️ Safety Special: 10% off hearty, energizing meals! 🍲",
+    "campaign_prompt": "Promote worker safety with nourishing meals"
+  },
+  {
+    "date": "2025-04-28",
+    "event": "Arbor Day",
+    "region": "Wyoming",
+    "suggested_offer": "🌲 Wyoming Green: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Vegetarian special for Wyoming Arbor Day"
+  },
+  {
+    "date": "2025-04-28",
+    "event": "Confederate Memorial Day",
+    "region": "Alabama",
+    "suggested_offer": "🍗 Alabama BBQ Special: 15% off smoked meats! 🍖",
+    "campaign_prompt": "BBQ feast for Confederate Memorial Day in Alabama"
+  },
+  {
+    "date": "2025-04-28",
+    "event": "Confederate Memorial Day",
+    "region": "Mississippi",
+    "suggested_offer": "🍖 Mississippi BBQ: 15% off traditional dishes! 🥩",
+    "campaign_prompt": "Southern BBQ deal for Confederate Memorial Day"
+  },
+  {
+    "date": "2025-04-30",
+    "event": "International Jazz Day",
+    "suggested_offer": "🎷 Jazz & Dine: 15% off smooth, soulful meals! 🍽️",
+    "campaign_prompt": "Jazz-themed food and drink specials"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "Yom Ha'atzmaut",
+    "suggested_offer": "🇮🇱 Israeli Flavors: 20% off Mediterranean dishes! 🥙",
+    "campaign_prompt": "Celebrate Israeli Independence with Mediterranean cuisine"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "Law Day",
+    "suggested_offer": "⚖️ Law Day Special: 10% off hearty meals! 🍲",
+    "campaign_prompt": "Promotion for Law Day with comfort foods"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "Loyalty Day",
+    "suggested_offer": "❤️ Loyal Guests: 15% off repeat customer meals! 🍽️",
+    "campaign_prompt": "Reward loyal customers on Loyalty Day"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "National Day of Prayer",
+    "suggested_offer": "🙏 Prayerful Plates: 10% off light meals! 🥗",
+    "campaign_prompt": "Offer respectful meals for National Day of Prayer"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "Lei Day",
+    "region": "Hawaii",
+    "suggested_offer": "🌺 Hawaiian Lei Special: 15% off island dishes! 🍍",
+    "campaign_prompt": "Celebrate Lei Day with Hawaiian cuisine"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "West Virginia Day of Prayer",
+    "region": "West Virginia",
+    "suggested_offer": "🙏 WV Prayer Special: 10% off comforting meals! 🍲",
+    "campaign_prompt": "Offer for WV Day of Prayer with comforting food"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "First Day of Military Appreciation Month",
+    "suggested_offer": "🎖️ Military Appreciation: 15% off meals for service members! 🍽️",
+    "campaign_prompt": "Honor military personnel with special offers"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "First Day of Asian Pacific American Heritage Month",
+    "suggested_offer": "🌏 Asian Flavors: 20% off pan-Asian dishes! 🍜",
+    "campaign_prompt": "Celebrate Asian Pacific American Heritage Month"
+  },
+  {
+    "date": "2025-05-01",
+    "event": "First Day of Jewish American Heritage Month",
+    "suggested_offer": "🕍 Jewish Delights: 15% off kosher dishes! 🍽️",
+    "campaign_prompt": "Kick off Jewish American Heritage Month with kosher specials"
+  },
+ 
+  {
+    "date": "2025-05-02",
+    "event": "World Tuna Day",
+    "suggested_offer": "🐟 Tuna Treat: 15% off all tuna dishes! 🍣",
+    "campaign_prompt": "Promote fresh tuna specials for World Tuna Day"
+  },
+  {
+    "date": "2025-05-02",
+    "event": "Kentucky Oaks",
+    "suggested_offer": "🏇 Derby Day Delight: 15% off southern favorites! 🍗",
+    "campaign_prompt": "Celebrate Kentucky Oaks with southern cuisine specials"
+  },
+  {
+    "date": "2025-05-03",
+    "event": "World Press Freedom Day",
+    "suggested_offer": "📰 Freedom Feast: 15% off hearty meals! 🍲",
+    "campaign_prompt": "Offer hearty food deals for World Press Freedom Day"
+  },
+  {
+    "date": "2025-05-03",
+    "event": "Kentucky Derby",
+    "suggested_offer": "🏇 Derby Day Feast: 20% off all southern dishes! 🍖",
+    "campaign_prompt": "Special deals for Kentucky Derby day"
+  },
+  {
+    "date": "2025-05-03",
+    "event": "National Explosive Ordnance Disposal (EOD) Day",
+    "suggested_offer": "💥 EOD Salute: 15% off all meals for service members! 🍽️",
+    "campaign_prompt": "Honoring EOD personnel with meal discounts"
+  },
+  {
+    "date": "2025-05-04",
+    "event": "International Family Equality Day",
+    "suggested_offer": "👨‍👩‍👧‍👦 Family Feast: Kids eat free with adult entree! 🍕",
+    "campaign_prompt": "Family-friendly deals for Family Equality Day"
+  },
+  {
+    "date": "2025-05-04",
+    "event": "Kent State Shootings Remembrance",
+    "region": "Ohio",
+    "suggested_offer": "🕯️ Reflect & Dine: 10% off comforting meals 🍲",
+    "campaign_prompt": "Offer respectful meals for remembrance day"
+  },
+  {
+    "date": "2025-05-04",
+    "event": "Rhode Island Independence Day",
+    "region": "Rhode Island",
+    "suggested_offer": "🌊 Ocean State Feast: 15% off seafood specials! 🦞",
+    "campaign_prompt": "Celebrate Rhode Island Independence Day with seafood"
+  },
+  {
+    "date": "2025-05-05",
+    "event": "World Portuguese Language Day",
+    "suggested_offer": "🇵🇹 Portuguese Flavors: 15% off traditional dishes! 🍛",
+    "campaign_prompt": "Celebrate Portuguese language with authentic food"
+  },
+  {
+    "date": "2025-05-05",
+    "event": "Cinco de Mayo",
+    "suggested_offer": "🌮 Cinco Fiesta: 20% off all Mexican dishes! 🍹",
+    "campaign_prompt": "Celebrate Cinco de Mayo with Mexican cuisine specials"
+  },
+  {
+    "date": "2025-05-06",
+    "event": "National Nurses Day",
+    "suggested_offer": "💉 Nurse Appreciation: Free drink with meal! 🍹",
+    "campaign_prompt": "Thank nurses with complimentary drinks"
+  },
+  {
+    "date": "2025-05-06",
+    "event": "National Teacher Appreciation Day",
+    "suggested_offer": "🍎 Teacher Treat: 15% off all meals! 🍽️",
+    "campaign_prompt": "Offer discounts for teachers on appreciation day"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "Time to Remember Lost Lives From World War II",
+    "suggested_offer": "🕯️ Remembrance Meal: 10% off comfort food 🥘",
+    "campaign_prompt": "Respectful meal promotion for remembrance"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "World Ovarian Cancer Day",
+    "suggested_offer": "💜 Hope Plates: 10% donated with every meal served 🍲",
+    "campaign_prompt": "Charity-focused offer for World Ovarian Cancer Day"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "World Red Cross and Red Crescent Day",
+    "suggested_offer": "❤️ Care Special: 15% off healthy meals! 🥗",
+    "campaign_prompt": "Support Red Cross with healthy meal discounts"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "Truman Day",
+    "region": "Missouri",
+    "suggested_offer": "🇺🇸 Truman’s Favorites: 15% off hearty Missouri dishes! 🍖",
+    "campaign_prompt": "Celebrate Truman Day with local favorites"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "Victory in Europe Day",
+    "suggested_offer": "🎉 VE Day Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate VE Day with festive meal deals"
+  },
+  {
+    "date": "2025-05-08",
+    "event": "Victory Day for World War II",
+    "suggested_offer": "🎖️ Victory Celebration: 15% off comfort foods! 🍲",
+    "campaign_prompt": "Special offers honoring Victory Day"
+  },
+  {
+    "date": "2025-05-09",
+    "event": "'Confederate Memorial Day' observed",
+    "region": "South Carolina",
+    "suggested_offer": "🍗 Southern BBQ: 15% off all BBQ platters! 🍖",
+    "campaign_prompt": "Confederate Memorial Day BBQ specials"
+  },
+  {
+    "date": "2025-05-09",
+    "event": "Native American Day",
+    "region": "Wyoming",
+    "suggested_offer": "🌾 Native Flavors: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American Day with local cuisine"
+  },
+  {
+    "date": "2025-05-09",
+    "event": "Military Spouse Appreciation Day",
+    "suggested_offer": "💙 Spouse Special: 15% off meals for military families! 🍽️",
+    "campaign_prompt": "Offer appreciation discounts for military spouses"
+  },
+  {
+    "date": "2025-05-10",
+    "event": "World Migratory Bird Day",
+    "suggested_offer": "🦅 Birdwatcher’s Feast: 15% off light & fresh dishes! 🥗",
+    "campaign_prompt": "Promote fresh meals for Migratory Bird Day"
+  },
+  {
+    "date": "2025-05-10",
+    "event": "International Day of Argania",
+    "suggested_offer": "🌿 Argania Special: 15% off Moroccan-inspired dishes! 🍛",
+    "campaign_prompt": "Celebrate Argania with Moroccan cuisine"
+  },
+  {
+    "date": "2025-05-10",
+    "event": "Confederate Memorial Day",
+    "region": "South Carolina",
+    "suggested_offer": "🍖 Southern BBQ Special: 15% off smoked meats! 🍗",
+    "campaign_prompt": "Celebrate Confederate Memorial Day with BBQ deals"
+  },
+  {
+    "date": "2025-05-10",
+    "event": "Confederate Memorial Day",
+    "region": "North Carolina",
+    "suggested_offer": "🍗 Carolina BBQ: 15% off traditional southern dishes! 🥩",
+    "campaign_prompt": "Southern cuisine specials for Confederate Memorial Day"
+  },
+  {
+    "date": "2025-05-11",
+    "event": "Mother's Day",
+    "suggested_offer": "💐 Mom's Special: Free dessert for all mothers! 🍰",
+    "campaign_prompt": "Celebrate moms with complimentary desserts"
+  },
+  {
+    "date": "2025-05-11",
+    "event": "Mother's Day",
+    "region": "Arizona",
+    "suggested_offer": "🌵 Arizona Mom's Day: 15% off meals for moms! 🍽️",
+    "campaign_prompt": "Special deals for moms in Arizona on Mother's Day"
+  },
+  {
+    "date": "2025-05-12",
+    "event": "Vesak Day",
+    "suggested_offer": "🕉️ Vesak Feast: 15% off vegetarian and vegan dishes! 🥗",
+    "campaign_prompt": "Promote plant-based meals for Vesak Day"
+  },
+  {
+    "date": "2025-05-12",
+    "event": "International Nurses Day",
+    "suggested_offer": "🩺 Nurse Appreciation: Free drink with meal! 🍹",
+    "campaign_prompt": "Thank nurses with special complimentary offers"
+  },
+  {
+    "date": "2025-05-15",
+    "event": "International Day of Families",
+    "suggested_offer": "👨‍👩‍👧 Family Feast: Kids eat free with adult entree! 🍕",
+    "campaign_prompt": "Family-friendly meal deals for International Day of Families"
+  },
+  {
+    "date": "2025-05-15",
+    "event": "Peace Officers Memorial Day",
+    "suggested_offer": "🚓 Officers Special: 15% off meals for law enforcement! 🍽️",
+    "campaign_prompt": "Special discounts for peace officers"
+  },
+  {
+    "date": "2025-05-16",
+    "event": "Lag BaOmer",
+    "suggested_offer": "🔥 Lag BaOmer BBQ: 15% off grilled dishes! 🍖",
+    "campaign_prompt": "BBQ specials for Lag BaOmer celebration"
+  },
+  {
+    "date": "2025-05-16",
+    "event": "International Day of Living Together in Peace",
+    "suggested_offer": "✌️ Peaceful Plates: 15% off shared meals! 🍲",
+    "campaign_prompt": "Promote harmony with shared dining specials"
+  },
+  {
+    "date": "2025-05-16",
+    "event": "International Day of Light",
+    "suggested_offer": "💡 Light & Fresh: 15% off salads and light dishes! 🥗",
+    "campaign_prompt": "Light meal promotion for International Day of Light"
+  },
+  {
+    "date": "2025-05-16",
+    "event": "National Defense Transportation Day",
+    "suggested_offer": "🚛 Transporter's Treat: 10% off hearty meals! 🍲",
+    "campaign_prompt": "Special offer for transportation workers"
+  },
+  {
+    "date": "2025-05-17",
+    "event": "World Telecommunication and Information Society Day",
+    "suggested_offer": "📱 Tech Bites: 15% off high-energy meals! 🥗",
+    "campaign_prompt": "Offer for tech workers and enthusiasts"
+  },
+  {
+    "date": "2025-05-17",
+    "event": "Public Lands Day",
+    "region": "Colorado",
+    "suggested_offer": "🏞️ Colorado Local: 15% off regional dishes! 🍖",
+    "campaign_prompt": "Celebrate public lands with local cuisine"
+  },
+  {
+    "date": "2025-05-17",
+    "event": "Armed Forces Day",
+    "suggested_offer": "🎖️ Armed Forces Special: 15% off meals for military! 🍽️",
+    "campaign_prompt": "Military appreciation meal deals"
+  },
+  {
+    "date": "2025-05-17",
+    "event": "Preakness Stakes",
+    "suggested_offer": "🏇 Derby Day Feast: 20% off southern dishes! 🍗",
+    "campaign_prompt": "Preakness Stakes celebration with southern food"
+  },
+  {
+    "date": "2025-05-20",
+    "event": "World Bee Day",
+    "suggested_offer": "🐝 Sweet Treat: 15% off honey-glazed dishes! 🍯",
+    "campaign_prompt": "Celebrate World Bee Day with honey-themed meals"
+  },
+  {
+    "date": "2025-05-20",
+    "event": "World Autoimmune / Autoinflammatory Arthritis Day",
+    "suggested_offer": "💙 Healing Bites: 10% off anti-inflammatory meals! 🥗",
+    "campaign_prompt": "Promote healthful meals for autoimmune awareness"
+  },
+  {
+    "date": "2025-05-21",
+    "event": "World Day for Cultural Diversity",
+    "suggested_offer": "🌍 Diversity Feast: 20% off global dishes! 🍣",
+    "campaign_prompt": "Celebrate cultural diversity with international cuisine"
+  },
+  {
+    "date": "2025-05-21",
+    "event": "International Tea Day",
+    "suggested_offer": "🍵 Tea Time Special: 15% off all teas and snacks! 🫖",
+    "campaign_prompt": "Tea and snack promotion for International Tea Day"
+  },
+  {
+    "date": "2025-05-21",
+    "event": "Emergency Medical Services for Children Day",
+    "suggested_offer": "👶 Kids Special: Free dessert with kids meals! 🍦",
+    "campaign_prompt": "Offer to support EMS for Children"
+  },
+
+  {
+    "date": "2025-05-22",
+    "event": "World Biological Diversity Day",
+    "suggested_offer": "🌿 Eco Feast: 15% off plant-based dishes! 🥗",
+    "campaign_prompt": "Celebrate biodiversity with sustainable food specials"
+  },
+  {
+    "date": "2025-05-22",
+    "event": "National Maritime Day",
+    "suggested_offer": "⚓ Seafood Special: 20% off fresh catches! 🐟",
+    "campaign_prompt": "Promote seafood specials for National Maritime Day"
+  },
+  {
+    "date": "2025-05-22",
+    "event": "Harvey Milk Day",
+    "region": "California",
+    "suggested_offer": "🏳️‍🌈 Pride Plates: 15% off rainbow-inspired dishes! 🌈",
+    "campaign_prompt": "Celebrate Harvey Milk Day with vibrant meals"
+  },
+  {
+    "date": "2025-05-23",
+    "event": "International Day to End Obstetric Fistula",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for obstetric fistula awareness"
+  },
+  {
+    "date": "2025-05-25",
+    "event": "African Liberation Day",
+    "suggested_offer": "🌍 African Feast: 20% off traditional dishes! 🍛",
+    "campaign_prompt": "Celebrate African Liberation Day with authentic cuisine"
+  },
+  {
+    "date": "2025-05-25",
+    "event": "National Missing Children's Day",
+    "suggested_offer": "💙 Awareness Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity-focused promotion for Missing Children's Day"
+  },
+  {
+    "date": "2025-05-26",
+    "event": "Memorial Day",
+    "suggested_offer": "🇺🇸 Memorial BBQ: 20% off all grilled dishes! 🍖",
+    "campaign_prompt": "Honor Memorial Day with BBQ specials"
+  },
+  {
+    "date": "2025-05-26",
+    "event": "Memorial Day",
+    "region": "AK, AL, AR, AZ, CA",
+    "suggested_offer": "🇺🇸 Regional Tribute: 15% off local favorites! 🍽️",
+    "campaign_prompt": "Celebrate Memorial Day with regional dishes"
+  },
+  {
+    "date": "2025-05-26",
+    "event": "Jefferson Davis' Birthday",
+    "region": "Mississippi",
+    "suggested_offer": "🌾 Southern Comfort: 15% off traditional southern meals! 🍗",
+    "campaign_prompt": "Celebrate Jefferson Davis' Birthday with southern cuisine"
+  },
+  {
+    "date": "2025-05-29",
+    "event": "Ascension Day",
+    "suggested_offer": "✝️ Ascension Feast: 15% off light meals! 🥗",
+    "campaign_prompt": "Offer special for Ascension Day"
+  },
+  {
+    "date": "2025-05-29",
+    "event": "International Day of United Nations Peacekeepers",
+    "suggested_offer": "☮️ Peacekeeper’s Plate: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate peacekeepers with special discounts"
+  },
+  {
+    "date": "2025-05-31",
+    "event": "World No Tobacco Day",
+    "suggested_offer": "🚭 Healthy Choices: 15% off fresh & clean meals! 🥗",
+    "campaign_prompt": "Promote healthy eating for No Tobacco Day"
+  },
+  {
+    "date": "2025-06-01",
+    "event": "Global Day of Parents",
+    "suggested_offer": "👨‍👩‍👧 Parent’s Special: Kids eat free with adult entree! 🍕",
+    "campaign_prompt": "Family-friendly deals for Global Day of Parents"
+  },
+  {
+    "date": "2025-06-01",
+    "event": "First Day of Pride Month",
+    "suggested_offer": "🏳️‍🌈 Pride Feast: 20% off rainbow-themed dishes! 🌈",
+    "campaign_prompt": "Kick off Pride Month with colorful cuisine specials"
+  },
+  {
+    "date": "2025-06-01",
+    "event": "First Day of Caribbean-American Heritage Month",
+    "suggested_offer": "🌴 Caribbean Flavors: 20% off tropical dishes! 🍛",
+    "campaign_prompt": "Celebrate Caribbean heritage with island cuisine"
+  },
+  {
+    "date": "2025-06-01",
+    "event": "Statehood Day",
+    "region": "Kentucky, Tennessee",
+    "suggested_offer": "🏞️ Bluegrass Special: 15% off local favorites! 🍗",
+    "campaign_prompt": "Celebrate Kentucky and Tennessee Statehood Days"
+  },
+  {
+    "date": "2025-06-02",
+    "event": "Shavuot",
+    "suggested_offer": "🕯️ Shavuot Feast: 15% off dairy & kosher dishes! 🧀",
+    "campaign_prompt": "Kosher dairy meal promotion for Shavuot"
+  },
+  {
+    "date": "2025-06-02",
+    "event": "Jefferson Davis' Birthday",
+    "region": "Alabama",
+    "suggested_offer": "🍗 Southern Comfort: 15% off hearty meals! 🍖",
+    "campaign_prompt": "Celebrate Jefferson Davis' Birthday in Alabama"
+  },
+  {
+    "date": "2025-06-03",
+    "event": "World Bicycle Day",
+    "suggested_offer": "🚴 Energy Boost: 15% off healthy, high-protein meals! 🥗",
+    "campaign_prompt": "Promote healthy meals for World Bicycle Day"
+  },
+  {
+    "date": "2025-06-03",
+    "event": "Jefferson Davis' Birthday",
+    "region": "Florida",
+    "suggested_offer": "🌴 Florida Special: 15% off southern cuisine! 🍗",
+    "campaign_prompt": "Celebrate Jefferson Davis' Birthday in Florida"
+  },
+  {
+    "date": "2025-06-04",
+    "event": "World Day for Child Victims of Aggression",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign supporting child victims"
+  },
+  {
+    "date": "2025-06-05",
+    "event": "World Environment Day",
+    "suggested_offer": "🌍 Green Feast: 20% off plant-based dishes! 🥗",
+    "campaign_prompt": "Celebrate environment with eco-friendly meals"
+  },
+  {
+    "date": "2025-06-05",
+    "event": "International Day for the Fight against Illegal, Unreported and Unregulated Fishing",
+    "suggested_offer": "🐟 Sustainable Seafood: 15% off all fish dishes! 🍣",
+    "campaign_prompt": "Promote sustainable seafood on this day"
+  },
+  {
+    "date": "2025-06-06",
+    "event": "Day of the Russian Language",
+    "suggested_offer": "🥟 Russian Delights: 15% off traditional dishes! 🍲",
+    "campaign_prompt": "Celebrate Russian Language Day with authentic food"
+  },
+  {
+    "date": "2025-06-06",
+    "event": "D-Day",
+    "suggested_offer": "🕯️ Remembrance Meal: 10% off comfort food 🥘",
+    "campaign_prompt": "Respectful meal offers for D-Day remembrance"
+  },
+  {
+    "date": "2025-06-07",
+    "event": "Eid al-Adha",
+    "suggested_offer": "🌙 Eid Feast: 20% off lamb and festive dishes! 🍖",
+    "campaign_prompt": "Celebrate Eid al-Adha with a special feast"
+  },
+  {
+    "date": "2025-06-07",
+    "event": "World Food Safety Day",
+    "suggested_offer": "🍽️ Safe Eats: 15% off all meals! 🥗",
+    "campaign_prompt": "Promote food safety with special discounts"
+  },
+  {
+    "date": "2025-06-07",
+    "event": "Belmont Stakes",
+    "suggested_offer": "🏇 Derby Day Feast: 20% off southern cuisine! 🍗",
+    "campaign_prompt": "Celebrate Belmont Stakes with southern dishes"
+  },
+  {
+    "date": "2025-06-08",
+    "event": "Pentecost",
+    "suggested_offer": "🕊️ Pentecost Special: 15% off light meals! 🥗",
+    "campaign_prompt": "Offer special meals for Pentecost"
+  },
+  {
+    "date": "2025-06-08",
+    "event": "World Oceans Day",
+    "suggested_offer": "🌊 Ocean Feast: 20% off seafood dishes! 🐟",
+    "campaign_prompt": "Celebrate World Oceans Day with seafood specials"
+  },
+  {
+    "date": "2025-06-08",
+    "event": "Native American Day",
+    "region": "Arizona",
+    "suggested_offer": "🌵 Native Flavors: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Promote Native American cuisine in Arizona"
+  },
+  {
+    "date": "2025-06-09",
+    "event": "Whit Monday",
+    "suggested_offer": "🌸 Whit Monday Special: 15% off spring-inspired meals! 🥗",
+    "campaign_prompt": "Celebrate Whit Monday with fresh seasonal dishes"
+  },
+  {
+    "date": "2025-06-11",
+    "event": "Kamehameha Day",
+    "region": "Hawaii",
+    "suggested_offer": "🌺 Hawaiian Feast: 20% off island specialties! 🍍",
+    "campaign_prompt": "Celebrate Kamehameha Day with Hawaiian cuisine"
+  },
+  {
+    "date": "2025-06-12",
+    "event": "World Day Against Child Labour",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for World Day Against Child Labour"
+  },
+  {
+    "date": "2025-06-12",
+    "event": "Loving Day",
+    "suggested_offer": "❤️ Love Feast: 15% off couples’ meals! 🍽️",
+    "campaign_prompt": "Celebrate Loving Day with romantic dinner deals"
+  },
+  {
+    "date": "2025-06-13",
+    "event": "International Albinism Awareness Day",
+    "suggested_offer": "🌞 Awareness Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Promote awareness with charity meal offers"
+  },
+  {
+    "date": "2025-06-13",
+    "event": "Friday the 13th",
+    "suggested_offer": "🍀 Lucky Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Turn Friday the 13th into a lucky dining day"
+  },
+  {
+    "date": "2025-06-14",
+    "event": "World Blood Donor Day",
+    "suggested_offer": "🩸 Donor's Delight: 15% off all meals! 🍲",
+    "campaign_prompt": "Celebrate blood donors with special discounts"
+  },
+  {
+    "date": "2025-06-14",
+    "event": "Army Birthday",
+    "suggested_offer": "🎖️ Army Appreciation: 15% off meals for service members! 🍽️",
+    "campaign_prompt": "Honor the Army Birthday with special offers"
+  },
+  {
+    "date": "2025-06-14",
+    "event": "Flag Day",
+    "suggested_offer": "🇺🇸 Flag Day Feast: 15% off patriotic-themed dishes! 🍔",
+    "campaign_prompt": "Celebrate Flag Day with American classics"
+  },
+  {
+    "date": "2025-06-15",
+    "event": "Trinity Sunday",
+    "suggested_offer": "✝️ Trinity Feast: 15% off traditional meals! 🍲",
+    "campaign_prompt": "Offer special meals for Trinity Sunday"
+  },
+  {
+    "date": "2025-06-15",
+    "event": "World Elder Abuse Awareness Day",
+    "suggested_offer": "💙 Respect Plates: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity-focused promotion for elder abuse awareness"
+  },
+  {
+    "date": "2025-06-15",
+    "event": "Father's Day",
+    "suggested_offer": "👔 Dad’s Day Special: Free drink with meal! 🍺",
+    "campaign_prompt": "Celebrate dads with complimentary drinks"
+  },
+  {
+    "date": "2025-06-15",
+    "event": "Father's Day",
+    "region": "Arizona",
+    "suggested_offer": "🌵 Arizona Dad’s Day: 15% off meals for fathers! 🍖",
+    "campaign_prompt": "Special Father's Day deals in Arizona"
+  },
+  {
+    "date": "2025-06-16",
+    "event": "International Day of Family Remittances",
+    "suggested_offer": "🏠 Family Feast: 15% off shared platters! 🍲",
+    "campaign_prompt": "Promote family togetherness with shared meal specials"
+  },
+  {
+    "date": "2025-06-16",
+    "event": "'Juneteenth Freedom Day' day off",
+    "region": "Utah",
+    "suggested_offer": "✊ Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth with soul food deals in Utah"
+  },
+  {
+    "date": "2025-06-17",
+    "event": "World Day to Combat Desertification",
+    "suggested_offer": "🌱 Green Plates: 15% off sustainable dishes! 🥗",
+    "campaign_prompt": "Promote eco-friendly meals for desertification awareness"
+  },
+  {
+    "date": "2025-06-17",
+    "event": "Bunker Hill Day",
+    "region": "Massachusetts",
+    "suggested_offer": "🇺🇸 Massachusetts Feast: 15% off local favorites! 🍗",
+    "campaign_prompt": "Celebrate Bunker Hill Day with regional cuisine"
+  },
+  {
+    "date": "2025-06-18",
+    "event": "Sustainable Gastronomy Day",
+    "suggested_offer": "🌿 Sustainable Feast: 15% off organic dishes! 🥗",
+    "campaign_prompt": "Promote sustainable eating with organic meal specials"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Corpus Christi",
+    "suggested_offer": "✝️ Feast Special: 15% off traditional meals! 🍲",
+    "campaign_prompt": "Offer special meals for Corpus Christi"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "International Day for the Elimination of Sexual Violence in Conflict",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for awareness of sexual violence"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "suggested_offer": "✊ Juneteenth Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth with soul food and freedom"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Day",
+    "region": "Kansas",
+    "suggested_offer": "✊ Kansas Freedom Feast: 20% off local soul food! 🍽️",
+    "campaign_prompt": "Juneteenth special for Kansas"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Alabama",
+    "suggested_offer": "✊ Alabama Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Alabama with special offers"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Day",
+    "region": "AZ, FL, HI, WI",
+    "suggested_offer": "✊ Juneteenth Celebration: 20% off regional soul food! 🍽️",
+    "campaign_prompt": "Regional Juneteenth deals for AZ, FL, HI, WI"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Day",
+    "region": "Georgia",
+    "suggested_offer": "✊ Georgia Freedom Feast: 20% off southern soul food! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Georgia with soul food specials"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Idaho",
+    "suggested_offer": "✊ Idaho Soul Food: 20% off freedom feast meals! 🍽️",
+    "campaign_prompt": "Juneteenth specials for Idaho"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Colorado",
+    "suggested_offer": "✊ Colorado Juneteenth: 20% off soul food dishes! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Colorado"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Independence Day",
+    "region": "Connecticut",
+    "suggested_offer": "✊ Connecticut Juneteenth: 20% off all meals! 🍽️",
+    "campaign_prompt": "Juneteenth celebration offer in Connecticut"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Delaware",
+    "suggested_offer": "✊ Delaware Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Delaware"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Illinois",
+    "suggested_offer": "✊ Illinois Juneteenth: 20% off soul food dishes! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Illinois"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "South Dakota",
+    "suggested_offer": "✊ South Dakota Freedom Feast: 20% off local dishes! 🍽️",
+    "campaign_prompt": "Juneteenth specials for South Dakota"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "National Juneteenth Freedom Day",
+    "region": "Kentucky",
+    "suggested_offer": "✊ Kentucky Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Kentucky"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Maine",
+    "suggested_offer": "✊ Maine Freedom Feast: 20% off local soul food! 🍽️",
+    "campaign_prompt": "Juneteenth deals in Maine"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth National Independence Day",
+    "region": "District of Columbia, Maryland",
+    "suggested_offer": "✊ DC & Maryland Juneteenth: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in DC and Maryland"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Independence Day",
+    "region": "Massachusetts",
+    "suggested_offer": "✊ Massachusetts Freedom Feast: 20% off southern soul food! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Massachusetts"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Minnesota",
+    "suggested_offer": "✊ Minnesota Juneteenth: 20% off soul food dishes! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Minnesota"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Freedom Day",
+    "region": "Mississippi",
+    "suggested_offer": "✊ Mississippi Freedom Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Mississippi"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Missouri",
+    "suggested_offer": "✊ Missouri Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Missouri"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Nebraska",
+    "suggested_offer": "✊ Nebraska Freedom Feast: 20% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Nebraska"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Day",
+    "region": "Nevada",
+    "suggested_offer": "✊ Nevada Juneteenth: 20% off all meals! 🍽️",
+    "campaign_prompt": "Juneteenth specials in Nevada"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "New Hampshire",
+    "suggested_offer": "✊ New Hampshire Freedom Feast: 20% off meals! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in New Hampshire"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "NY, VA, WA",
+    "suggested_offer": "✊ Regional Juneteenth: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in NY, VA, and WA"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Freedom Day",
+    "region": "New Mexico",
+    "suggested_offer": "✊ New Mexico Freedom Feast: 20% off southwestern dishes! 🌶️",
+    "campaign_prompt": "Celebrate Juneteenth in New Mexico"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "North Carolina",
+    "suggested_offer": "✊ North Carolina Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in North Carolina"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "North Dakota",
+    "suggested_offer": "✊ North Dakota Freedom Feast: 20% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in North Dakota"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Ohio",
+    "suggested_offer": "✊ Ohio Juneteenth: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Ohio"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Oregon",
+    "suggested_offer": "✊ Oregon Freedom Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Juneteenth offers in Oregon"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Pennsylvania",
+    "suggested_offer": "✊ Pennsylvania Soul Food: 20% off meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Pennsylvania"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Rhode Island",
+    "suggested_offer": "✊ Rhode Island Freedom Feast: 20% off dishes! 🍽️",
+    "campaign_prompt": "Juneteenth celebration in Rhode Island"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Celebration of Freedom Day",
+    "region": "South Carolina",
+    "suggested_offer": "✊ South Carolina Soul Food: 20% off meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in South Carolina"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "Tennessee",
+    "suggested_offer": "✊ Tennessee Freedom Feast: 20% off southern dishes! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Tennessee"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth Freedom Day",
+    "region": "Utah",
+    "suggested_offer": "✊ Utah Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Juneteenth specials in Utah"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Juneteenth",
+    "region": "West Virginia",
+    "suggested_offer": "✊ West Virginia Freedom Feast: 20% off meals! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in West Virginia"
+  },
+  {
+    "date": "2025-06-19",
+    "event": "Emancipation Day",
+    "region": "Texas",
+    "suggested_offer": "✊ Texas Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Celebrate Emancipation Day in Texas with soul food"
+  },
+  {
+    "date": "2025-06-20",
+    "event": "World Refugee Day",
+    "suggested_offer": "🤝 Refugee Support: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for World Refugee Day"
+  },
+  {
+    "date": "2025-06-20",
+    "event": "Juneteenth Day",
+    "region": "New Jersey",
+    "suggested_offer": "✊ New Jersey Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in New Jersey"
+  },
+  {
+    "date": "2025-06-20",
+    "event": "West Virginia Day",
+    "region": "West Virginia",
+    "suggested_offer": "🏞️ West Virginia Local: 15% off regional dishes! 🍽️",
+    "campaign_prompt": "Celebrate West Virginia Day with local cuisine"
+  },
+  {
+    "date": "2025-06-20",
+    "event": "American Eagle Day",
+    "suggested_offer": "🦅 Freedom Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate American Eagle Day with special offers"
+  },
+  {
+    "date": "2025-06-20",
+    "event": "June Solstice",
+    "suggested_offer": "☀️ Summer Kickoff: 20% off fresh seasonal dishes! 🥗",
+    "campaign_prompt": "Celebrate summer solstice with fresh, light meals"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "International Day of Yoga",
+    "suggested_offer": "🧘 Healthy Bites: 15% off vegetarian & vegan meals! 🥗",
+    "campaign_prompt": "Promote wellness with healthy meals for Yoga Day"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "International Day of the Celebration of the Solstice",
+    "suggested_offer": "🌞 Solstice Feast: 20% off light & fresh dishes! 🥗",
+    "campaign_prompt": "Celebrate the solstice with seasonal cuisine"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Iowa",
+    "suggested_offer": "✊ Iowa Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Iowa"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth",
+    "region": "Wyoming",
+    "suggested_offer": "✊ Wyoming Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Wyoming"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth Day",
+    "region": "Alaska, Arkansas",
+    "suggested_offer": "✊ Juneteenth Special: 20% off local soul food! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Alaska and Arkansas"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth National Freedom Day",
+    "region": "California",
+    "suggested_offer": "✊ California Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in California"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth",
+    "region": "Louisiana",
+    "suggested_offer": "✊ Louisiana Soul Food: 20% off all meals! 🍗",
+    "campaign_prompt": "Celebrate Juneteenth in Louisiana"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Michigan",
+    "suggested_offer": "✊ Michigan Freedom Feast: 20% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Michigan"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Montana, Oklahoma",
+    "suggested_offer": "✊ Montana & Oklahoma Juneteenth: 20% off meals! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Montana and Oklahoma"
+  },
+  {
+    "date": "2025-06-21",
+    "event": "Juneteenth National Freedom Day",
+    "region": "Vermont",
+    "suggested_offer": "✊ Vermont Freedom Feast: 20% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Juneteenth in Vermont"
+  },
+  {
+    "date": "2025-06-23",
+    "event": "Public Service Day",
+    "suggested_offer": "👩‍💼 Public Service Special: 15% off meals for civil servants! 🍽️",
+    "campaign_prompt": "Offer discounts to public service workers"
+  },
+  {
+    "date": "2025-06-23",
+    "event": "International Widows' Day",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity campaign for widows’ support"
+  },
+  {
+    "date": "2025-06-25",
+    "event": "Day of the Seafarer",
+    "suggested_offer": "⚓ Seafarer Special: 15% off seafood dishes! 🦞",
+    "campaign_prompt": "Celebrate seafarers with seafood specials"
+  },
+  {
+    "date": "2025-06-26",
+    "event": "World Day against Drug Abuse and Trafficking",
+    "suggested_offer": "🚫 Healthy Choices: 15% off clean-eating meals! 🥗",
+    "campaign_prompt": "Promote healthy meals for awareness"
+  },
+  {
+    "date": "2025-06-26",
+    "event": "World Day to Support Torture Victims",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity-focused meal campaign"
+  },
+  {
+    "date": "2025-06-27",
+    "event": "Muharram",
+    "suggested_offer": "🕊️ Muharram Special: 15% off vegetarian meals! 🥗",
+    "campaign_prompt": "Offer special meals for Muharram observance"
+  },
+  {
+    "date": "2025-06-27",
+    "event": "Micro-, Small and Medium-sized Enterprises Day",
+    "suggested_offer": "💼 Business Boost: 15% off all meals for entrepreneurs! 🍽️",
+    "campaign_prompt": "Celebrate small businesses with meal discounts"
+  },
+  {
+    "date": "2025-06-28",
+    "event": "Carolina Day",
+    "region": "South Carolina",
+    "suggested_offer": "🍗 Carolina Feast: 15% off southern specialties! 🍖",
+    "campaign_prompt": "Celebrate Carolina Day with local dishes"
+  },
+  {
+    "date": "2025-06-29",
+    "event": "International Day of the Tropics",
+    "suggested_offer": "🌴 Tropical Treats: 15% off island-inspired dishes! 🍛",
+    "campaign_prompt": "Celebrate the tropics with tropical cuisine"
+  },
+  {
+    "date": "2025-06-30",
+    "event": "International Asteroid Day",
+    "suggested_offer": "🌠 Cosmic Cuisine: 15% off space-themed dishes! 🍽️",
+    "campaign_prompt": "Creative space-themed food promotion"
+  },
+  {
+    "date": "2025-06-30",
+    "event": "International Day of Parliamentarism",
+    "suggested_offer": "🏛️ Parliamentary Plates: 15% off classic dishes! 🍲",
+    "campaign_prompt": "Celebrate parliamentarism with classic meals"
+  },
+  {
+    "date": "2025-07-04",
+    "event": "Independence Day",
+    "suggested_offer": "🎆 4th of July Feast: 25% off BBQ & patriotic dishes! 🍔",
+    "campaign_prompt": "Celebrate Independence Day with big BBQ specials"
+  },
+  {
+    "date": "2025-07-04",
+    "event": "Independence Day (Many regions)",
+    "suggested_offer": "🎉 Independence Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate freedom with special dining offers"
+  },
+  {
+    "date": "2025-07-05",
+    "event": "International Day of Cooperatives",
+    "suggested_offer": "🤝 Cooperative Special: 15% off group meals! 🍲",
+    "campaign_prompt": "Promote togetherness with group dining discounts"
+  },
+  {
+    "date": "2025-07-06",
+    "event": "Ashura",
+    "suggested_offer": "🕊️ Ashura Special: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer vegetarian meals for Ashura observance"
+  },
+  {
+    "date": "2025-07-11",
+    "event": "World Population Day",
+    "suggested_offer": "🌍 Global Feast: 15% off international dishes! 🍜",
+    "campaign_prompt": "Celebrate global diversity with international cuisine"
+  },
+  {
+    "date": "2025-07-13",
+    "event": "Nathan Bedford Forrest Day",
+    "region": "Tennessee",
+    "suggested_offer": "🍗 Tennessee BBQ: 15% off all BBQ dishes! 🍖",
+    "campaign_prompt": "Celebrate Tennessee heritage with BBQ specials"
+  },
+  {
+    "date": "2025-07-14",
+    "event": "Bastille Day",
+    "suggested_offer": "🥖 French Feast: 20% off classic French dishes! 🧀",
+    "campaign_prompt": "Celebrate Bastille Day with French cuisine"
+  },
+  {
+    "date": "2025-07-15",
+    "event": "World Youth Skills Day",
+    "suggested_offer": "💼 Youth Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Offer meal discounts for young people"
+  },
+  {
+    "date": "2025-07-16",
+    "event": "Rural Transit Day",
+    "suggested_offer": "🚌 Transit Treat: 15% off hearty meals! 🍲",
+    "campaign_prompt": "Special offer for transit workers"
+  },
+  {
+    "date": "2025-07-18",
+    "event": "Nelson Mandela Day",
+    "suggested_offer": "✊ Mandela Feast: 20% off South African dishes! 🍛",
+    "campaign_prompt": "Celebrate Mandela Day with South African cuisine"
+  },
+  {
+    "date": "2025-07-20",
+    "event": "World Chess Day",
+    "suggested_offer": "♟️ Brain Food: 15% off smart snacks and meals! 🍱",
+    "campaign_prompt": "Promote brain-boosting foods for Chess Day"
+  },
+  {
+    "date": "2025-07-24",
+    "event": "Pioneer Day",
+    "region": "Utah",
+    "suggested_offer": "🌄 Utah Pioneer Feast: 15% off local dishes! 🍗",
+    "campaign_prompt": "Celebrate Pioneer Day with Utah cuisine"
+  },
+  {
+    "date": "2025-07-25",
+    "event": "World Drowning Prevention Day",
+    "suggested_offer": "💧 Safety Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for drowning prevention"
+  },
+  {
+    "date": "2025-07-27",
+    "event": "Parents' Day",
+    "suggested_offer": "👨‍👩‍👧 Parent’s Special: Free dessert for all parents! 🍰",
+    "campaign_prompt": "Celebrate Parents’ Day with complimentary desserts"
+  },
+  {
+    "date": "2025-07-27",
+    "event": "Korean War Veteran Recognition Day",
+    "region": "West Virginia",
+    "suggested_offer": "🎖️ Veteran’s Meal: 15% off all meals! 🍽️",
+    "campaign_prompt": "Recognize Korean War veterans with special offers"
+  },
+  {
+    "date": "2025-07-27",
+    "event": "National Korean War Veterans Armistice Day",
+    "suggested_offer": "🎖️ Veteran’s Special: 15% off meals! 🍽️",
+    "campaign_prompt": "Honoring Korean War Veterans with meal discounts"
+  },
+  {
+    "date": "2025-07-28",
+    "event": "World Hepatitis Day",
+    "suggested_offer": "💙 Health Boost: 10% off immune-support meals! 🥗",
+    "campaign_prompt": "Promote healthful meals for World Hepatitis Day"
+  },
+  {
+    "date": "2025-07-30",
+    "event": "World Friendship Day",
+    "suggested_offer": "🤗 Friend Feast: 15% off group meals! 🍲",
+    "campaign_prompt": "Celebrate friendship with group dining specials"
+  },
+  {
+    "date": "2025-07-30",
+    "event": "World Day Against Trafficking in Persons",
+    "suggested_offer": "🛑 Awareness Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for anti-trafficking awareness"
+  },
+  
+  {
+    "date": "2025-08-01",
+    "event": "Colorado Day",
+    "region": "Colorado",
+    "suggested_offer": "🏔️ Colorado Pride: 15% off local mountain cuisine! 🍖",
+    "campaign_prompt": "Celebrate Colorado Day with regional dishes"
+  },
+  {
+    "date": "2025-08-03",
+    "event": "Tisha B'Av",
+    "suggested_offer": "🕯️ Reflective Meal: 15% off light vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer respectful meals for Tisha B'Av"
+  },
+  {
+    "date": "2025-08-03",
+    "event": "American Family Day",
+    "region": "Arizona",
+    "suggested_offer": "👨‍👩‍👧 Family Feast: Kids eat free with adult entree! 🍕",
+    "campaign_prompt": "Family-friendly deals for American Family Day"
+  },
+  {
+    "date": "2025-08-04",
+    "event": "Coast Guard Birthday",
+    "suggested_offer": "🚢 Coast Guard Special: 15% off seafood dishes! 🦞",
+    "campaign_prompt": "Celebrate Coast Guard Birthday with seafood specials"
+  },
+  {
+    "date": "2025-08-04",
+    "event": "Barack Obama Day",
+    "region": "Illinois",
+    "suggested_offer": "🇺🇸 Obama’s Favorites: 15% off American classics! 🍔",
+    "campaign_prompt": "Celebrate Barack Obama Day with classic dishes"
+  },
+  {
+    "date": "2025-08-07",
+    "event": "Purple Heart Day",
+    "region": "West Virginia, Wyoming",
+    "suggested_offer": "💜 Hero’s Meal: 15% off all meals for veterans! 🍽️",
+    "campaign_prompt": "Honor Purple Heart recipients with meal discounts"
+  },
+  {
+    "date": "2025-08-07",
+    "event": "Purple Heart Day",
+    "suggested_offer": "💜 Purple Heart Tribute: 15% off meals for veterans! 🍽️",
+    "campaign_prompt": "Special offer for Purple Heart Day"
+  },
+  {
+    "date": "2025-08-08",
+    "event": "Raksha Bandhan",
+    "suggested_offer": "🤝 Sibling Special: 15% off shared meals! 🍽️",
+    "campaign_prompt": "Celebrate Raksha Bandhan with shared dining offers"
+  },
+  {
+    "date": "2025-08-09",
+    "event": "World Indigenous Peoples’ Day",
+    "suggested_offer": "🌎 Indigenous Feast: 15% off native dishes! 🍽️",
+    "campaign_prompt": "Celebrate indigenous cultures with traditional cuisine"
+  },
+  {
+    "date": "2025-08-11",
+    "event": "Victory Day",
+    "region": "Rhode Island",
+    "suggested_offer": "🎉 Victory Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Victory Day with special discounts"
+  },
+  {
+    "date": "2025-08-12",
+    "event": "International Youth Day",
+    "suggested_offer": "🌟 Youth Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Offer meal discounts for young people"
+  },
+  {
+    "date": "2025-08-15",
+    "event": "Assumption of Mary",
+    "suggested_offer": "✝️ Feast Day: 15% off light meals! 🥗",
+    "campaign_prompt": "Offer special meals for Assumption of Mary"
+  },
+  {
+    "date": "2025-08-15",
+    "event": "Statehood Day",
+    "region": "Hawaii",
+    "suggested_offer": "🌺 Hawaiian Feast: 15% off island dishes! 🍍",
+    "campaign_prompt": "Celebrate Hawaii Statehood Day with local cuisine"
+  },
+  {
+    "date": "2025-08-15",
+    "event": "'Bennington Battle Day' observed",
+    "region": "Vermont",
+    "suggested_offer": "🏞️ Vermont Special: 15% off local favorites! 🍖",
+    "campaign_prompt": "Celebrate Bennington Battle Day with regional cuisine"
+  },
+  {
+    "date": "2025-08-16",
+    "event": "Janmashtami",
+    "suggested_offer": "🕉️ Janmashtami Feast: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer special meals for Janmashtami celebration"
+  },
+  {
+    "date": "2025-08-16",
+    "event": "Bennington Battle Day",
+    "region": "Vermont",
+    "suggested_offer": "🏞️ Vermont Feast: 15% off local dishes! 🍖",
+    "campaign_prompt": "Celebrate Bennington Battle Day with Vermont cuisine"
+  },
+  {
+    "date": "2025-08-17",
+    "event": "National Navajo Code Talkers Day",
+    "region": "Arizona",
+    "suggested_offer": "🌵 Navajo Special: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Navajo Code Talkers Day with native cuisine"
+  },
+  {
+    "date": "2025-08-17",
+    "event": "National Senior Citizens Day",
+    "suggested_offer": "👵 Senior Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Offer discounts for senior citizens"
+  },
+  {
+    "date": "2025-08-19",
+    "event": "World Humanitarian Day",
+    "suggested_offer": "🌍 Humanitarian Feast: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity meal promotion for World Humanitarian Day"
+  },
+  {
+    "date": "2025-08-19",
+    "event": "National Aviation Day",
+    "suggested_offer": "✈️ Aviator Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate aviation with special dining offers"
+  },
+  {
+    "date": "2025-08-21",
+    "event": "International Day of Remembrance of and Tribute to the Victims of Terrorism",
+    "suggested_offer": "🕯️ Tribute Meal: 10% off comforting dishes 🥘",
+    "campaign_prompt": "Respectful meal promotion for victims of terrorism"
+  },
+  {
+    "date": "2025-08-22",
+    "event": "International Day Commemorating the Victims of Acts of Violence Based on Religion or Belief",
+    "suggested_offer": "🕊️ Peace Feast: 15% off light meals! 🥗",
+    "campaign_prompt": "Promote peace with special dining offers"
+  },
+  {
+    "date": "2025-08-23",
+    "event": "World Day for Slave Trade Abolition",
+    "suggested_offer": "✊ Freedom Feast: 15% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate freedom with soul food deals"
+  },
+  {
+    "date": "2025-08-26",
+    "event": "Ganesh Chaturthi",
+    "suggested_offer": "🐘 Ganesh Feast: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer special meals for Ganesh Chaturthi"
+  },
+  {
+    "date": "2025-08-26",
+    "event": "Susan B. Anthony Day",
+    "region": "Massachusetts",
+    "suggested_offer": "👩‍🎤 Women's Tribute: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Susan B. Anthony Day with women's specials"
+  },
+  {
+    "date": "2025-08-26",
+    "event": "Women's Equality Day",
+    "suggested_offer": "👩‍⚖️ Equality Feast: 20% off meals for women! 🍽️",
+    "campaign_prompt": "Celebrate Women's Equality Day with special deals"
+  },
+  {
+    "date": "2025-08-27",
+    "event": "Lyndon Baines Johnson Day",
+    "region": "Texas",
+    "suggested_offer": "🤠 Texas Special: 15% off BBQ and Tex-Mex! 🌮",
+    "campaign_prompt": "Celebrate LBJ Day with Texas cuisine"
+  },
+  {
+    "date": "2025-08-29",
+    "event": "International Day against Nuclear Tests",
+    "suggested_offer": "☮️ Peace Meal: 15% off all meals! 🍽️",
+    "campaign_prompt": "Promote peace with special dining offers"
+  },
+  {
+    "date": "2025-08-30",
+    "event": "World Day of Victims of Enforced Disappearance",
+    "suggested_offer": "🕯️ Tribute Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity campaign for victims of enforced disappearance"
+  },
+  {
+    "date": "2025-08-31",
+    "event": "International Day for People of African Descent",
+    "suggested_offer": "✊ African Heritage Feast: 20% off traditional dishes! 🍛",
+    "campaign_prompt": "Celebrate African heritage with authentic cuisine"
+  },
+  {
+    "date": "2025-08-31",
+    "event": "International Overdose Awareness Day",
+    "suggested_offer": "💙 Awareness Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity meal campaign for overdose awareness"
+  },
+
+  {
+    "date": "2025-09-01",
+    "event": "Labor Day",
+    "suggested_offer": "💼 Labor Day Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Labor Day with hearty meal discounts"
+  },
+  {
+    "date": "2025-09-01",
+    "event": "Labor Day (All)",
+    "suggested_offer": "👷‍♀️ Workers' Special: 15% off meals for all laborers! 🍔",
+    "campaign_prompt": "Special discounts for workers on Labor Day"
+  },
+  {
+    "date": "2025-09-04",
+    "event": "World Sexual Health Day",
+    "suggested_offer": "❤️ Wellness Feast: 15% off healthy meals! 🥗",
+    "campaign_prompt": "Promote wellness with healthy dining offers"
+  },
+  {
+    "date": "2025-09-05",
+    "event": "The Prophet's Birthday",
+    "suggested_offer": "🕊️ Respectful Feast: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer special vegetarian meals for Prophet’s Birthday"
+  },
+  {
+    "date": "2025-09-05",
+    "event": "International Day of Charity",
+    "suggested_offer": "🤝 Charity Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support charity with meal donations"
+  },
+  {
+    "date": "2025-09-06",
+    "event": "Carl Garner Federal Lands Cleanup Day",
+    "suggested_offer": "🌿 Green Special: 15% off plant-based dishes! 🥗",
+    "campaign_prompt": "Celebrate cleanup efforts with eco-friendly meals"
+  },
+  {
+    "date": "2025-09-06",
+    "event": "Native American Day",
+    "region": "Delaware",
+    "suggested_offer": "🌾 Native Flavors: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Promote native cuisine in Delaware"
+  },
+  {
+    "date": "2025-09-07",
+    "event": "International Day of Clean Air for Blue Skies",
+    "suggested_offer": "🌬️ Fresh Air Feast: 15% off fresh & light meals! 🥗",
+    "campaign_prompt": "Promote clean air awareness with fresh food"
+  },
+  {
+    "date": "2025-09-07",
+    "event": "Still's Disease Awareness Day",
+    "suggested_offer": "💙 Awareness Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Support disease awareness with charity meals"
+  },
+  {
+    "date": "2025-09-07",
+    "event": "National Grandparents Day",
+    "suggested_offer": "👵 Grandparents’ Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate grandparents with special discounts"
+  },
+  {
+    "date": "2025-09-08",
+    "event": "International Literacy Day",
+    "suggested_offer": "📚 Literacy Feast: Free dessert with any meal! 🍰",
+    "campaign_prompt": "Celebrate literacy with sweet treats"
+  },
+  {
+    "date": "2025-09-09",
+    "event": "International Day to Protect Education from Attack",
+    "suggested_offer": "🛡️ Education Support: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign supporting education protection"
+  },
+  {
+    "date": "2025-09-09",
+    "event": "California Admission Day",
+    "region": "California",
+    "suggested_offer": "🌴 California Feast: 15% off local dishes! 🍔",
+    "campaign_prompt": "Celebrate California Admission Day with regional cuisine"
+  },
+  {
+    "date": "2025-09-10",
+    "event": "World Suicide Prevention Day",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity campaign for suicide prevention"
+  },
+  {
+    "date": "2025-09-11",
+    "event": "First Responders Day",
+    "region": "North Carolina",
+    "suggested_offer": "🚓 First Responder Special: 15% off meals! 🍽️",
+    "campaign_prompt": "Honoring first responders with meal discounts"
+  },
+  {
+    "date": "2025-09-11",
+    "event": "Patriot Day",
+    "suggested_offer": "🇺🇸 Patriot Day Feast: 20% off all meals! 🍔",
+    "campaign_prompt": "Remember Patriot Day with special dining offers"
+  },
+  {
+    "date": "2025-09-12",
+    "event": "International South-South Cooperation Day",
+    "suggested_offer": "🌍 Global Feast: 15% off international dishes! 🍣",
+    "campaign_prompt": "Celebrate global cooperation with diverse cuisine"
+  },
+  {
+    "date": "2025-09-13",
+    "event": "International Programmers' Day",
+    "suggested_offer": "💻 Code & Dine: 15% off tech-themed meals! 🍕",
+    "campaign_prompt": "Celebrate programmers with tech-inspired specials"
+  },
+  {
+    "date": "2025-09-14",
+    "event": "Constitution Commemoration Day",
+    "region": "Arizona",
+    "suggested_offer": "🇺🇸 Arizona Special: 15% off local favorites! 🍔",
+    "campaign_prompt": "Celebrate Arizona Constitution Day with regional cuisine"
+  },
+  {
+    "date": "2025-09-15",
+    "event": "International Day of Democracy",
+    "suggested_offer": "🗳️ Democracy Feast: 15% off hearty meals! 🍲",
+    "campaign_prompt": "Celebrate democracy with meal discounts"
+  },
+  {
+    "date": "2025-09-15",
+    "event": "First Day of National Hispanic Heritage Month",
+    "suggested_offer": "🌮 Hispanic Flavors: 20% off Mexican & Latin dishes! 🍹",
+    "campaign_prompt": "Kick off Hispanic Heritage Month with festive meals"
+  },
+  {
+    "date": "2025-09-16",
+    "event": "World Ozone Layer Day",
+    "suggested_offer": "🌍 Green Feast: 15% off plant-based meals! 🥗",
+    "campaign_prompt": "Celebrate ozone protection with eco-friendly dishes"
+  },
+  {
+    "date": "2025-09-17",
+    "event": "World Patient Safety Day",
+    "suggested_offer": "🩺 Safety First: 15% off healthy meals! 🥗",
+    "campaign_prompt": "Promote patient safety with nutritious food offers"
+  },
+  {
+    "date": "2025-09-17",
+    "event": "Constitution Day and Citizenship Day",
+    "suggested_offer": "🇺🇸 Constitution Feast: 15% off patriotic meals! 🍔",
+    "campaign_prompt": "Celebrate Constitution and Citizenship Day with special dishes"
+  },
+  {
+    "date": "2025-09-18",
+    "event": "International Equal Pay Day",
+    "suggested_offer": "💰 Equality Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Promote equal pay with dining discounts"
+  },
+  {
+    "date": "2025-09-18",
+    "event": "Air Force Birthday",
+    "suggested_offer": "✈️ Air Force Feast: 15% off meals for service members! 🍽️",
+    "campaign_prompt": "Honor Air Force birthday with special offers"
+  },
+  {
+    "date": "2025-09-19",
+    "event": "National POW/MIA Recognition Day",
+    "suggested_offer": "🕯️ Tribute Meal: 15% off comforting dishes 🥘",
+    "campaign_prompt": "Respectful meal promotion for POW/MIA Recognition Day"
+  },
+  {
+    "date": "2025-09-21",
+    "event": "International Day of Peace",
+    "suggested_offer": "☮️ Peace Feast: 15% off shared platters! 🍲",
+    "campaign_prompt": "Celebrate peace with communal meals"
+  },
+  {
+    "date": "2025-09-22",
+    "event": "Navratri",
+    "suggested_offer": "🕉️ Navratri Feast: 15% off vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer special meals for Navratri celebration"
+  },
+  {
+    "date": "2025-09-22",
+    "event": "American Indian Day",
+    "region": "Tennessee",
+    "suggested_offer": "🌾 Native Flavors: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American heritage with regional cuisine"
+  },
+  {
+    "date": "2025-09-22",
+    "event": "Emancipation Day",
+    "region": "Ohio",
+    "suggested_offer": "✊ Freedom Feast: 20% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Emancipation Day with soul food deals"
+  },
+  {
+    "date": "2025-09-22",
+    "event": "September Equinox",
+    "suggested_offer": "🍂 Autumn Feast: 20% off seasonal dishes! 🥗",
+    "campaign_prompt": "Celebrate fall arrival with fresh seasonal meals"
+  },
+  {
+    "date": "2025-09-23",
+    "event": "Rosh Hashana",
+    "suggested_offer": "🍯 Sweet New Year: 15% off kosher meals! 🕯️",
+    "campaign_prompt": "Celebrate Rosh Hashana with festive kosher dishes"
+  },
+  {
+    "date": "2025-09-23",
+    "event": "International Day of Sign Languages",
+    "suggested_offer": "🤟 Inclusive Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate sign language with inclusive dining offers"
+  },
+  {
+    "date": "2025-09-23",
+    "event": "International Celebrate Bisexuality Day",
+    "suggested_offer": "🌈 Bi Pride Feast: 15% off rainbow dishes! 🍽️",
+    "campaign_prompt": "Celebrate bisexuality with vibrant meals"
+  },
+  {
+    "date": "2025-09-23",
+    "event": "Rosh Hashana",
+    "region": "Texas",
+    "suggested_offer": "🍯 Texas Sweet New Year: 15% off kosher meals! 🕯️",
+    "campaign_prompt": "Celebrate Rosh Hashana with kosher specials in Texas"
+  },
+  {
+    "date": "2025-09-25",
+    "event": "World Maritime Day",
+    "suggested_offer": "⚓ Seafood Feast: 20% off fresh catches! 🐟",
+    "campaign_prompt": "Celebrate World Maritime Day with seafood specials"
+  },
+  {
+    "date": "2025-09-26",
+    "event": "World Day to Eliminate Nuclear Weapons",
+    "suggested_offer": "☮️ Peace Meal: 15% off all meals! 🍽️",
+    "campaign_prompt": "Promote peace with special dining offers"
+  },
+  {
+    "date": "2025-09-26",
+    "event": "Native American Day",
+    "region": "California, Nevada",
+    "suggested_offer": "🌾 Native Flavors: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American heritage with regional cuisine"
+  },
+  {
+    "date": "2025-09-26",
+    "event": "American Indian Heritage Day",
+    "region": "Montana, Texas",
+    "suggested_offer": "🌾 Heritage Feast: 15% off traditional dishes! 🍽️",
+    "campaign_prompt": "Celebrate American Indian Heritage Day"
+  },
+  {
+    "date": "2025-09-26",
+    "event": "Michigan Indian Day",
+    "region": "Michigan",
+    "suggested_offer": "🌾 Michigan Native Feast: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Michigan Indian Day with native cuisine"
+  },
+  {
+    "date": "2025-09-27",
+    "event": "World Tourism Day",
+    "suggested_offer": "🌍 Traveler’s Feast: 15% off international dishes! 🍣",
+    "campaign_prompt": "Celebrate World Tourism Day with global cuisine"
+  },
+  {
+    "date": "2025-09-27",
+    "event": "Public Lands Day",
+    "region": "Wyoming",
+    "suggested_offer": "🏞️ Wyoming Special: 15% off local favorites! 🍗",
+    "campaign_prompt": "Celebrate Wyoming Public Lands Day with regional dishes"
+  },
+  {
+    "date": "2025-09-27",
+    "event": "National Public Lands Day",
+    "suggested_offer": "🏞️ Public Lands Feast: 15% off local and organic dishes! 🥗",
+    "campaign_prompt": "Celebrate Public Lands Day with sustainable meals"
+  },
+  {
+    "date": "2025-09-28",
+    "event": "International Day for Universal Access to Information",
+    "suggested_offer": "🌐 Global Special: 15% off international dishes! 🍽️",
+    "campaign_prompt": "Celebrate universal access with global cuisine"
+  },
+  {
+    "date": "2025-09-28",
+    "event": "World Rabies Day",
+    "suggested_offer": "🐾 Awareness Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Support rabies awareness with charity meals"
+  },
+  {
+    "date": "2025-09-28",
+    "event": "Gold Star Mother's Day",
+    "suggested_offer": "💙 Tribute Feast: Free dessert for Gold Star Moms! 🍰",
+    "campaign_prompt": "Honor Gold Star mothers with complimentary desserts"
+  },
+  {
+    "date": "2025-09-29",
+    "event": "International Day of Awareness of Food Loss and Waste",
+    "suggested_offer": "🌱 Zero Waste Special: 15% off sustainable meals! 🥗",
+    "campaign_prompt": "Promote zero waste dining specials"
+  },
+  {
+    "date": "2025-09-29",
+    "event": "World Heart Day",
+    "suggested_offer": "❤️ Heart-Healthy Feast: 20% off low-fat meals! 🥗",
+    "campaign_prompt": "Promote heart-healthy eating on World Heart Day"
+  },
+  {
+    "date": "2025-09-30",
+    "event": "International Translation Day",
+    "suggested_offer": "🌐 Language Feast: 15% off international dishes! 🍽️",
+    "campaign_prompt": "Celebrate linguistic diversity with global cuisine"
+  },
+  {
+    "date": "2025-10-01",
+    "event": "International Day of Older Persons",
+    "suggested_offer": "👵 Senior Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate older persons with special discounts"
+  },
+  {
+    "date": "2025-10-01",
+    "event": "World Vegetarian Day",
+    "suggested_offer": "🥗 Veggie Feast: 20% off all vegetarian dishes! 🌱",
+    "campaign_prompt": "Celebrate vegetarianism with delicious plant-based meals"
+  },
+  {
+    "date": "2025-10-02",
+    "event": "Dussehra",
+    "suggested_offer": "🕉️ Dussehra Feast: 15% off vegetarian meals! 🥗",
+    "campaign_prompt": "Offer special vegetarian meals for Dussehra"
+  },
+  {
+    "date": "2025-10-02",
+    "event": "Yom Kippur",
+    "suggested_offer": "🕯️ Yom Kippur Special: 15% off light kosher dishes! 🥗",
+    "campaign_prompt": "Offer kosher meal specials for Yom Kippur"
+  },
+  {
+    "date": "2025-10-02",
+    "event": "International Day of Non-Violence",
+    "suggested_offer": "✌️ Peaceful Plates: 15% off shared meals! 🍲",
+    "campaign_prompt": "Promote peace with communal dining offers"
+  },
+  {
+    "date": "2025-10-02",
+    "event": "Yom Kippur",
+    "region": "Texas",
+    "suggested_offer": "🕯️ Texas Yom Kippur Special: 15% off kosher dishes! 🍽️",
+    "campaign_prompt": "Offer kosher meal specials for Yom Kippur in Texas"
+  },
+  {
+    "date": "2025-10-04",
+    "event": "Feast of St Francis of Assisi",
+    "suggested_offer": "🐾 Blessing Feast: 15% off vegetarian meals! 🥗",
+    "campaign_prompt": "Offer special vegetarian dishes for St Francis feast"
+  },
+  {
+    "date": "2025-10-05",
+    "event": "World Teachers' Day",
+    "suggested_offer": "🍎 Teacher Treat: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate teachers with special meal discounts"
+  },
+  {
+    "date": "2025-10-06",
+    "event": "World Habitat Day",
+    "suggested_offer": "🏡 Habitat Feast: 15% off sustainable dishes! 🥗",
+    "campaign_prompt": "Promote eco-friendly meals for Habitat Day"
+  },
+  {
+    "date": "2025-10-06",
+    "event": "World Cerebral Palsy Day",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity campaign for cerebral palsy awareness"
+  },
+  {
+    "date": "2025-10-06",
+    "event": "Frances Xavier Cabrini Day",
+    "region": "Colorado",
+    "suggested_offer": "🌄 Colorado Special: 15% off local dishes! 🍖",
+    "campaign_prompt": "Celebrate Frances Xavier Cabrini Day with local cuisine"
+  },
+  {
+    "date": "2025-10-06",
+    "event": "German American Day",
+    "suggested_offer": "🍺 German Feast: 20% off traditional dishes! 🍖",
+    "campaign_prompt": "Celebrate German American Day with authentic food"
+  },
+  {
+    "date": "2025-10-06",
+    "event": "Child Health Day",
+    "suggested_offer": "👶 Healthy Kids: Free dessert with kids meals! 🍦",
+    "campaign_prompt": "Offer treats for Child Health Day"
+  },
+  {
+    "date": "2025-10-07",
+    "event": "First Day of Sukkot",
+    "suggested_offer": "🌿 Sukkot Feast: 15% off kosher dishes! 🕯️",
+    "campaign_prompt": "Offer kosher specials for Sukkot celebration"
+  },
+  {
+    "date": "2025-10-08",
+    "event": "World Day for Natural Disaster Reduction",
+    "suggested_offer": "🛡️ Safety Special: 15% off hearty meals! 🍲",
+    "campaign_prompt": "Promote safety with comforting food offers"
+  },
+  {
+    "date": "2025-10-09",
+    "event": "World Post Day",
+    "suggested_offer": "📬 Mail Carrier Meal: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate postal workers with special discounts"
+  },
+  {
+    "date": "2025-10-09",
+    "event": "World Sight Day",
+    "suggested_offer": "👁️ Eye Health Feast: 15% off vitamin-rich meals! 🥗",
+    "campaign_prompt": "Promote eye health with nutritious meal specials"
+  },
+  {
+    "date": "2025-10-09",
+    "event": "Leif Erikson Day",
+    "suggested_offer": "🛶 Nordic Feast: 15% off Scandinavian dishes! 🍽️",
+    "campaign_prompt": "Celebrate Leif Erikson Day with Nordic cuisine"
+  },
+  {
+    "date": "2025-10-09",
+    "event": "Leif Erikson Day",
+    "region": "Colorado",
+    "suggested_offer": "🛶 Colorado Nordic Special: 15% off Scandinavian dishes! 🍽️",
+    "campaign_prompt": "Celebrate Leif Erikson Day in Colorado with Nordic meals"
+  },
+  {
+    "date": "2025-10-10",
+    "event": "World Mental Health Day",
+    "suggested_offer": "🧠 Wellness Feast: 15% off calming meals! 🥗",
+    "campaign_prompt": "Promote mental health with comforting food offers"
+  },
+  {
+    "date": "2025-10-11",
+    "event": "World Migratory Bird Day",
+    "suggested_offer": "🦅 Birdwatcher’s Feast: 15% off light dishes! 🥗",
+    "campaign_prompt": "Celebrate migratory birds with fresh meal specials"
+  },
+  {
+    "date": "2025-10-11",
+    "event": "International Day of the Girl Child",
+    "suggested_offer": "👧 Girl Power Feast: 20% off meals for girls! 🍽️",
+    "campaign_prompt": "Celebrate girls with special meal discounts"
+  },
+  {
+    "date": "2025-10-11",
+    "event": "Robert E. Lee's Birthday",
+    "region": "Arkansas",
+    "suggested_offer": "🍗 Southern BBQ: 15% off all BBQ dishes! 🍖",
+    "campaign_prompt": "Celebrate Robert E. Lee’s Birthday with BBQ specials"
+  },
+  {
+    "date": "2025-10-11",
+    "event": "Casimir Pulaski Day",
+    "region": "Michigan, Rhode Island",
+    "suggested_offer": "🇵🇱 Polish Feast: 15% off traditional dishes! 🍲",
+    "campaign_prompt": "Celebrate Casimir Pulaski Day with Polish cuisine"
+  },
+  {
+    "date": "2025-10-11",
+    "event": "Anniversary of Death of General Pulaski",
+    "region": "Massachusetts",
+    "suggested_offer": "🇵🇱 Massachusetts Polish Special: 15% off dishes! 🍲",
+    "campaign_prompt": "Commemorate General Pulaski with Polish cuisine"
+  },
+  {
+    "date": "2025-10-12",
+    "event": "Chicago Marathon",
+    "suggested_offer": "🏃 Runner’s Fuel: 15% off energy-packed meals! 🍲",
+    "campaign_prompt": "Support marathon runners with special meal deals"
+  },
+ 
+  {
+    "date": "2025-10-13",
+    "event": "Last Day of Sukkot",
+    "suggested_offer": "🌿 Farewell Feast: 15% off kosher dishes! 🕯️",
+    "campaign_prompt": "Offer kosher specials for Sukkot closing"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Navy Birthday",
+    "suggested_offer": "⚓ Navy Special: 15% off seafood dishes! 🦞",
+    "campaign_prompt": "Celebrate Navy Birthday with seafood deals"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Columbus Day",
+    "suggested_offer": "🛶 Explorer's Feast: 15% off Italian dishes! 🍝",
+    "campaign_prompt": "Celebrate Columbus Day with Italian cuisine"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Columbus Day (Many regions)",
+    "suggested_offer": "🌎 Global Feast: 15% off international dishes! 🍽️",
+    "campaign_prompt": "Celebrate Columbus Day with world cuisine"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Fraternal Day",
+    "region": "Alabama",
+    "suggested_offer": "🤝 Brotherhood Special: 15% off group meals! 🍲",
+    "campaign_prompt": "Celebrate Fraternal Day with group dining deals"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Yorktown Victory Day",
+    "region": "Virginia",
+    "suggested_offer": "🇺🇸 Victory Feast: 15% off southern dishes! 🍗",
+    "campaign_prompt": "Celebrate Yorktown Victory Day with southern cuisine"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Discoverers’ Day",
+    "region": "Hawaii",
+    "suggested_offer": "🌺 Island Feast: 15% off Hawaiian dishes! 🍍",
+    "campaign_prompt": "Celebrate Discoverers’ Day with Hawaiian cuisine"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Native American Day",
+    "region": "Oklahoma",
+    "suggested_offer": "🌾 Native Flavors: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American Day with traditional dishes"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Native American Day",
+    "region": "South Dakota",
+    "suggested_offer": "🌾 Indigenous Feast: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American heritage with local cuisine"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Indigenous People's Day",
+    "region": "Michigan, Minnesota",
+    "suggested_offer": "🌾 Native Feast: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Indigenous People's Day with regional cuisine"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Indigenous People's Day (Most regions)",
+    "suggested_offer": "🌎 Indigenous Special: 15% off traditional dishes! 🍽️",
+    "campaign_prompt": "Celebrate Indigenous People's Day across regions"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "Indigenous People's Day",
+    "region": "DC, ME, NE, NM",
+    "suggested_offer": "🌾 Regional Native Feast: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Indigenous People's Day in specific regions"
+  },
+  {
+    "date": "2025-10-13",
+    "event": "American Indian Heritage Day",
+    "region": "Alabama",
+    "suggested_offer": "🌾 Heritage Feast: 15% off traditional dishes! 🍽️",
+    "campaign_prompt": "Celebrate American Indian Heritage Day"
+  },
+  {
+    "date": "2025-10-14",
+    "event": "Shmini Atzeret",
+    "suggested_offer": "🕯️ Shmini Atzeret Feast: 15% off kosher dishes! 🥗",
+    "campaign_prompt": "Offer kosher meal specials for Shmini Atzeret"
+  },
+  {
+    "date": "2025-10-15",
+    "event": "Simchat Torah",
+    "suggested_offer": "🎉 Torah Feast: 15% off kosher dishes! 🕯️",
+    "campaign_prompt": "Celebrate Simchat Torah with kosher meals"
+  },
+  {
+    "date": "2025-10-15",
+    "event": "International Day of Rural Women",
+    "suggested_offer": "👩‍🌾 Rural Women Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate rural women with special discounts"
+  },
+  {
+    "date": "2025-10-15",
+    "event": "White Cane Safety Day",
+    "suggested_offer": "🦯 Safety Special: 15% off hearty meals! 🍲",
+    "campaign_prompt": "Promote safety with meal discounts"
+  },
+  {
+    "date": "2025-10-16",
+    "event": "World Food Day",
+    "suggested_offer": "🌍 Food Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate World Food Day with global cuisine specials"
+  },
+  {
+    "date": "2025-10-16",
+    "event": "Boss's Day",
+    "suggested_offer": "👔 Boss Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate bosses with special meal discounts"
+  },
+  {
+    "date": "2025-10-17",
+    "event": "World Day for Poverty Eradication",
+    "suggested_offer": "🤝 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for poverty eradication"
+  },
+  {
+    "date": "2025-10-17",
+    "event": "'Alaska Day' observed",
+    "region": "Alaska",
+    "suggested_offer": "❄️ Alaska Feast: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Alaska Day with regional cuisine"
+  },
+  {
+    "date": "2025-10-18",
+    "event": "Alaska Day",
+    "region": "Alaska",
+    "suggested_offer": "❄️ Alaska Special: 15% off local dishes! 🍖",
+    "campaign_prompt": "Celebrate Alaska Day with regional dishes"
+  },
+  {
+    "date": "2025-10-18",
+    "event": "Sweetest Day (Many regions)",
+    "suggested_offer": "🍫 Sweet Treat: Free dessert with every meal! 🍰",
+    "campaign_prompt": "Celebrate Sweetest Day with complimentary desserts"
+  },
+  {
+    "date": "2025-10-20",
+    "event": "Diwali/Deepavali",
+    "suggested_offer": "🪔 Diwali Feast: 20% off Indian vegetarian dishes! 🥗",
+    "campaign_prompt": "Celebrate Diwali with festive Indian cuisine"
+  },
+  {
+    "date": "2025-10-20",
+    "event": "World Statistics Day",
+    "suggested_offer": "📊 Data Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate World Statistics Day with special offers"
+  },
+  {
+    "date": "2025-10-24",
+    "event": "United Nations Day",
+    "suggested_offer": "🌐 UN Feast: 20% off international dishes! 🍣",
+    "campaign_prompt": "Celebrate UN Day with global cuisine specials"
+  },
+  {
+    "date": "2025-10-24",
+    "event": "World Development Information Day",
+    "suggested_offer": "🌍 Info Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate development with special dining offers"
+  },
+  {
+    "date": "2025-10-27",
+    "event": "World Day for Audiovisual Heritage",
+    "suggested_offer": "🎬 Movie Night Special: 15% off snacks and meals! 🍿",
+    "campaign_prompt": "Celebrate audiovisual heritage with movie snacks"
+  },
+  {
+    "date": "2025-10-29",
+    "event": "World Stroke Day",
+    "suggested_offer": "❤️ Health Special: 15% off heart-healthy meals! 🥗",
+    "campaign_prompt": "Promote heart health with nutritious meals"
+  },
+  {
+    "date": "2025-10-31",
+    "event": "World Cities Day",
+    "suggested_offer": "🏙️ City Feast: 15% off urban-inspired dishes! 🍽️",
+    "campaign_prompt": "Celebrate cities with urban cuisine specials"
+  },
+  {
+    "date": "2025-10-31",
+    "event": "Halloween",
+    "suggested_offer": "🎃 Spooky Feast: 20% off themed meals and drinks! 🍹",
+    "campaign_prompt": "Celebrate Halloween with spooky specials"
+  },
+  {
+    "date": "2025-10-31",
+    "event": "Nevada Day",
+    "region": "Nevada",
+    "suggested_offer": "🎰 Nevada Special: 15% off local dishes! 🍗",
+    "campaign_prompt": "Celebrate Nevada Day with regional cuisine"
+  },
+  {
+    "date": "2025-11-01",
+    "event": "All Saints' Day",
+    "suggested_offer": "🕯️ Feast of Saints: 15% off light meals! 🥗",
+    "campaign_prompt": "Offer special meals for All Saints’ Day"
+  },
+  {
+    "date": "2025-11-01",
+    "event": "World Vegan Day",
+    "suggested_offer": "🌱 Vegan Feast: 20% off all vegan dishes! 🥗",
+    "campaign_prompt": "Celebrate World Vegan Day with plant-based meals"
+  },
+  {
+    "date": "2025-11-01",
+    "event": "First Day of Native American Heritage Month",
+    "suggested_offer": "🌾 Heritage Feast: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American Heritage Month"
+  },
+  {
+    "date": "2025-11-02",
+    "event": "All Souls' Day",
+    "suggested_offer": "🕯️ Remembrance Feast: 15% off comforting dishes! 🍲",
+    "campaign_prompt": "Offer respectful meals for All Souls’ Day"
+  },
+  {
+    "date": "2025-11-02",
+    "event": "International Day to End Impunity",
+    "suggested_offer": "✊ Justice Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support justice with charity meal offers"
+  },
+  {
+    "date": "2025-11-02",
+    "event": "New York City Marathon",
+    "suggested_offer": "🏃 Runner’s Fuel: 15% off energy-packed meals! 🍲",
+    "campaign_prompt": "Support marathon runners with special meals"
+  },
+  {
+    "date": "2025-11-02",
+    "event": "Daylight Saving Time ends",
+    "suggested_offer": "🕰️ Time Change Treat: 15% off all meals! 🍽️",
+    "campaign_prompt": "Offer specials for the end of daylight saving time"
+  },
+  {
+    "date": "2025-11-04",
+    "event": "Election Day",
+    "suggested_offer": "🗳️ Voter's Special: 15% off meals for voters! 🍽️",
+    "campaign_prompt": "Celebrate Election Day with special discounts"
+  },
+  {
+    "date": "2025-11-04",
+    "event": "Election Day",
+    "region": "New Jersey, Virginia",
+    "suggested_offer": "🗳️ Voter's Feast: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Election Day in NJ and VA with local cuisine"
+  },
+  {
+    "date": "2025-11-05",
+    "event": "World Tsunami Awareness Day",
+    "suggested_offer": "🌊 Awareness Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Support tsunami awareness with charity meals"
+  },
+  {
+    "date": "2025-11-06",
+    "event": "World Day to Protect the Environment in War",
+    "suggested_offer": "🌍 Peace Feast: 15% off eco-friendly dishes! 🥗",
+    "campaign_prompt": "Promote environmental protection with special meals"
+  },
+  {
+    "date": "2025-11-10",
+    "event": "World Science Day",
+    "suggested_offer": "🔬 Science Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate science with meal discounts"
+  },
+  {
+    "date": "2025-11-10",
+    "event": "Marine Corps Birthday",
+    "suggested_offer": "🎖️ Marine Special: 15% off meals for service members! 🍽️",
+    "campaign_prompt": "Celebrate Marine Corps Birthday with special offers"
+  },
+  {
+    "date": "2025-11-10",
+    "event": "Barack Obama Day",
+    "region": "Alabama",
+    "suggested_offer": "🇺🇸 Obama’s Favorites: 15% off American classics! 🍔",
+    "campaign_prompt": "Celebrate Barack Obama Day in Alabama with classic dishes"
+  },
+  {
+    "date": "2025-11-11",
+    "event": "Singles’ Day",
+    "suggested_offer": "💘 Single Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Singles’ Day with meal discounts"
+  },
+  {
+    "date": "2025-11-11",
+    "event": "Veterans Day",
+    "suggested_offer": "🎖️ Veteran’s Meal: 20% off meals for all veterans! 🍽️",
+    "campaign_prompt": "Honor veterans with special discounts"
+  },
+  {
+    "date": "2025-11-11",
+    "event": "Veterans Day",
+    "region": "All except MA, RI, TX, WY",
+    "suggested_offer": "🎖️ Regional Veterans Special: 15% off meals! 🍽️",
+    "campaign_prompt": "Veterans Day specials in various regions"
+  },
+  {
+    "date": "2025-11-11",
+    "event": "Veterans' Day/Armistice Day",
+    "region": "MS, RI, TX",
+    "suggested_offer": "🎖️ Veterans Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Veterans Day in MS, RI, TX with special offers"
+  },
+  {
+    "date": "2025-11-12",
+    "event": "World Pneumonia Day",
+    "suggested_offer": "💙 Health Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Support pneumonia awareness with charity meals"
+  },
+  {
+    "date": "2025-11-14",
+    "event": "World Diabetes Day",
+    "suggested_offer": "🩸 Diabetes Friendly: 15% off low-sugar meals! 🥗",
+    "campaign_prompt": "Promote diabetes-friendly meals with discounts"
+  },
+  {
+    "date": "2025-11-16",
+    "event": "International Day for Tolerance",
+    "suggested_offer": "🤝 Tolerance Feast: 15% off shared meals! 🍽️",
+    "campaign_prompt": "Celebrate tolerance with communal dining specials"
+  },
+  {
+    "date": "2025-11-16",
+    "event": "World Day for Road Traffic Victims",
+    "suggested_offer": "🚦 Safety Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity meal promotion for traffic victims"
+  },
+  {
+    "date": "2025-11-17",
+    "event": "World Prematurity Day",
+    "suggested_offer": "💙 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support premature babies with charity meals"
+  },
+  {
+    "date": "2025-11-19",
+    "event": "World Toilet Day",
+    "suggested_offer": "🚽 Hygiene Special: 10% donated with every meal 🍲",
+    "campaign_prompt": "Charity campaign for sanitation awareness"
+  },
+  {
+    "date": "2025-11-19",
+    "event": "International Men's Day",
+    "suggested_offer": "👔 Men's Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate men with special meal discounts"
+  },
+  {
+    "date": "2025-11-19",
+    "event": "George Rogers Clark Day",
+    "region": "Ohio",
+    "suggested_offer": "🇺🇸 Ohio Special: 15% off regional dishes! 🍽️",
+    "campaign_prompt": "Celebrate George Rogers Clark Day with local cuisine"
+  },
+  {
+    "date": "2025-11-20",
+    "event": "Universal Children's Day",
+    "suggested_offer": "👧 Kids Special: Free dessert with kids meals! 🍦",
+    "campaign_prompt": "Celebrate children with complimentary treats"
+  },
+  {
+    "date": "2025-11-20",
+    "event": "Africa Industrialization Day",
+    "suggested_offer": "🌍 African Feast: 15% off traditional dishes! 🍛",
+    "campaign_prompt": "Celebrate African heritage with authentic cuisine"
+  },
+  {
+    "date": "2025-11-20",
+    "event": "World Philosophy Day",
+    "suggested_offer": "🤔 Thoughtful Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate philosophy with special dining offers"
+  },
+  {
+    "date": "2025-11-20",
+    "event": "Transgender Day of Remembrance",
+    "suggested_offer": "🏳️‍⚧️ Tribute Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support transgender community with charity meals"
+  },
+  {
+    "date": "2025-11-21",
+    "event": "World Television Day",
+    "suggested_offer": "📺 TV Night Special: 15% off snacks and meals! 🍿",
+    "campaign_prompt": "Celebrate television with snack deals"
+  },
+  {
+    "date": "2025-11-21",
+    "event": "Fake Friday",
+    "suggested_offer": "🎉 Pre-Black Friday Deals: 15% off all meals! 🍽️",
+    "campaign_prompt": "Get early discounts before Black Friday"
+  },
+  {
+    "date": "2025-11-25",
+    "event": "World Day to Eliminate Violence on Women",
+    "suggested_offer": "💜 Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign supporting women’s safety"
+  },
+  {
+    "date": "2025-11-27",
+    "event": "Thanksgiving Day",
+    "suggested_offer": "🦃 Thanksgiving Feast: Special holiday menu & 20% off! 🍽️",
+    "campaign_prompt": "Celebrate Thanksgiving with a festive feast"
+  },
+  {
+    "date": "2025-11-27",
+    "event": "Thanksgiving Day (All)",
+    "suggested_offer": "🦃 Family Feast: Kids eat free with adult entree! 🍽️",
+    "campaign_prompt": "Family-friendly deals for Thanksgiving Day"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "State Holiday",
+    "region": "Georgia",
+    "suggested_offer": "🍑 Georgia Special: 15% off local favorites! 🍗",
+    "campaign_prompt": "Celebrate Georgia State Holiday with regional cuisine"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Presidents' Day (Observed)",
+    "region": "New Mexico",
+    "suggested_offer": "🏜️ New Mexico Feast: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Presidents’ Day in New Mexico"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Lincoln's Birthday/Lincoln's Day",
+    "region": "Indiana",
+    "suggested_offer": "🌽 Indiana Special: 15% off Midwestern dishes! 🍽️",
+    "campaign_prompt": "Celebrate Lincoln’s Day in Indiana"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Day After Thanksgiving (Many regions)",
+    "suggested_offer": "🛍️ Black Friday Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Special dining deals on the day after Thanksgiving"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Family Day",
+    "region": "Nevada",
+    "suggested_offer": "👨‍👩‍👧 Family Feast: Kids eat free with adult entree! 🍕",
+    "campaign_prompt": "Family-friendly meal specials in Nevada"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Acadian Day",
+    "region": "Louisiana",
+    "suggested_offer": "🎶 Louisiana Special: 15% off Cajun dishes! 🍤",
+    "campaign_prompt": "Celebrate Acadian Day with Cajun cuisine"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Black Friday",
+    "suggested_offer": "🛍️ Black Friday Deals: 20% off all meals! 🍽️",
+    "campaign_prompt": "Biggest meal discounts of the year for Black Friday"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "American Indian Heritage Day",
+    "region": "Maryland",
+    "suggested_offer": "🌾 Heritage Feast: 15% off indigenous dishes! 🍽️",
+    "campaign_prompt": "Celebrate American Indian Heritage Day"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Native American Heritage Day",
+    "region": "Washington",
+    "suggested_offer": "🌾 Native Feast: 15% off indigenous cuisine! 🍽️",
+    "campaign_prompt": "Celebrate Native American Heritage Day"
+  },
+  {
+    "date": "2025-11-28",
+    "event": "Native American Heritage Day",
+    "suggested_offer": "🌾 Heritage Special: 15% off native dishes! 🍽️",
+    "campaign_prompt": "Celebrate Native American Heritage Day nationwide"
+  },
+  {
+    "date": "2025-11-29",
+    "event": "World Solidarity Day with Palestinian People",
+    "suggested_offer": "🕊️ Solidarity Feast: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support Palestinian solidarity with charity meals"
+  },
+  {
+    "date": "2025-11-29",
+    "event": "Nellie Tayloe Ross's Birthday",
+    "region": "Wyoming",
+    "suggested_offer": "🐎 Wyoming Special: 15% off local dishes! 🍖",
+    "campaign_prompt": "Celebrate Nellie Tayloe Ross's Birthday with regional cuisine"
+  },
+  {
+    "date": "2025-11-30",
+    "event": "First Sunday of Advent",
+    "suggested_offer": "🕯️ Advent Feast: 15% off seasonal dishes! 🍽️",
+    "campaign_prompt": "Celebrate the start of Advent with festive meals"
+  },
+  {
+    "date": "2025-11-30",
+    "event": "Day to Remember Chemical Warfare Victims",
+    "suggested_offer": "🕯️ Tribute Meal: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity meal campaign for chemical warfare victims"
+  },
+  {
+    "date": "2025-12-01",
+    "event": "World AIDS Day",
+    "suggested_offer": "❤️ Support Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity campaign for AIDS awareness"
+  },
+  {
+    "date": "2025-12-01",
+    "event": "Cyber Monday",
+    "suggested_offer": "💻 Cyber Deals: 20% off all meals! 🍽️",
+    "campaign_prompt": "Big online meal discounts for Cyber Monday"
+  },
+  {
+    "date": "2025-12-01",
+    "event": "Rosa Parks Day",
+    "region": "Alabama, Ohio",
+    "suggested_offer": "✊ Freedom Feast: 15% off soul food specials! 🍗",
+    "campaign_prompt": "Celebrate Rosa Parks Day with special meals"
+  },
+  {
+    "date": "2025-12-02",
+    "event": "World Day for Slavery Abolition",
+    "suggested_offer": "✊ Freedom Feast: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support slavery abolition with charity meals"
+  },
+  {
+    "date": "2025-12-02",
+    "event": "Giving Tuesday",
+    "suggested_offer": "🎁 Giving Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support charity on Giving Tuesday"
+  },
+  {
+    "date": "2025-12-03",
+    "event": "World Day for Persons with Disabilities",
+    "suggested_offer": "♿ Inclusion Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate inclusion with meal discounts"
+  },
+  {
+    "date": "2025-12-04",
+    "event": "International Day of Banks",
+    "suggested_offer": "🏦 Banker’s Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate banks with special meal offers"
+  },
+  {
+    "date": "2025-12-05",
+    "event": "International Volunteer Day",
+    "suggested_offer": "🤝 Volunteer Special: 15% off meals for volunteers! 🍽️",
+    "campaign_prompt": "Celebrate volunteers with special meal discounts"
+  },
+  {
+    "date": "2025-12-05",
+    "event": "World Soil Day",
+    "suggested_offer": "🌱 Earth Feast: 15% off plant-based dishes! 🥗",
+    "campaign_prompt": "Celebrate World Soil Day with eco-friendly meals"
+  },
+  {
+    "date": "2025-12-06",
+    "event": "St Nicholas Day",
+    "suggested_offer": "🎅 Holiday Treat: Free dessert with every meal! 🍰",
+    "campaign_prompt": "Celebrate St Nicholas Day with sweet treats"
+  },
+  {
+    "date": "2025-12-07",
+    "event": "International Civil Aviation Day",
+    "suggested_offer": "✈️ Aviation Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate civil aviation with meal discounts"
+  },
+  {
+    "date": "2025-12-07",
+    "event": "Pearl Harbor Remembrance Day",
+    "region": "Alaska, Wyoming",
+    "suggested_offer": "🕯️ Remembrance Feast: 15% off comforting dishes! 🍲",
+    "campaign_prompt": "Offer respectful meals for Pearl Harbor remembrance"
+  },
+  {
+    "date": "2025-12-07",
+    "event": "Pearl Harbor Remembrance Day",
+    "suggested_offer": "🕯️ Remembrance Meal: 15% off comforting dishes! 🍲",
+    "campaign_prompt": "Offer respectful meals for Pearl Harbor Remembrance"
+  },
+  {
+    "date": "2025-12-07",
+    "event": "Delaware Day",
+    "region": "Delaware",
+    "suggested_offer": "🌾 Delaware Special: 15% off local dishes! 🍽️",
+    "campaign_prompt": "Celebrate Delaware Day with regional cuisine"
+  },
+  {
+    "date": "2025-12-08",
+    "event": "Feast of the Immaculate Conception",
+    "suggested_offer": "✝️ Feast Special: 15% off light meals! 🥗",
+    "campaign_prompt": "Offer special meals for the Immaculate Conception"
+  },
+  {
+    "date": "2025-12-08",
+    "event": "Green Monday",
+    "suggested_offer": "🌿 Green Feast: 15% off plant-based dishes! 🥗",
+    "campaign_prompt": "Celebrate Green Monday with eco-friendly meals"
+  },
+  {
+    "date": "2025-12-09",
+    "event": "International Anti-Corruption Day",
+    "suggested_offer": "✊ Integrity Special: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Support anti-corruption efforts with charity meals"
+  },
+  {
+    "date": "2025-12-09",
+    "event": "World Genocide Commemoration Day",
+    "suggested_offer": "🕯️ Tribute Meal: 10% donated with every meal 🍽️",
+    "campaign_prompt": "Charity meal campaign for genocide remembrance"
+  },
+  {
+    "date": "2025-12-10",
+    "event": "Human Rights Day",
+    "suggested_offer": "✊ Human Rights Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate human rights with special meal offers"
+  },
+  {
+    "date": "2025-12-10",
+    "event": "Wyoming Day",
+    "region": "Wyoming",
+    "suggested_offer": "🐎 Wyoming Special: 15% off local dishes! 🍖",
+    "campaign_prompt": "Celebrate Wyoming Day with regional cuisine"
+  },
+  {
+    "date": "2025-12-11",
+    "event": "International Mountain Day",
+    "suggested_offer": "🏔️ Mountain Feast: 15% off hearty meals! 🍲",
+    "campaign_prompt": "Celebrate mountains with hearty meal specials"
+  },
+  {
+    "date": "2025-12-12",
+    "event": "International Day of Neutrality",
+    "suggested_offer": "☮️ Neutral Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Promote neutrality with special dining offers"
+  },
+  {
+    "date": "2025-12-12",
+    "event": "International Universal Health Coverage Day",
+    "suggested_offer": "🩺 Health Feast: 15% off nutritious meals! 🥗",
+    "campaign_prompt": "Celebrate health coverage with healthy meal specials"
+  },
+  {
+    "date": "2025-12-12",
+    "event": "Feast of Our Lady of Guadalupe",
+    "suggested_offer": "🌹 Guadalupe Feast: 15% off traditional dishes! 🍽️",
+    "campaign_prompt": "Celebrate Our Lady of Guadalupe with special meals"
+  },
+  {
+    "date": "2025-12-13",
+    "event": "National Guard Birthday",
+    "suggested_offer": "🎖️ Guard Special: 15% off meals for service members! 🍽️",
+    "campaign_prompt": "Celebrate National Guard Birthday with special offers"
+  },
+  {
+    "date": "2025-12-15",
+    "event": "Chanukah/Hanukkah (first day)",
+    "suggested_offer": "🕎 Hanukkah Feast: 15% off kosher dishes! 🥯",
+    "campaign_prompt": "Celebrate Hanukkah with kosher meal specials"
+  },
+  {
+    "date": "2025-12-15",
+    "event": "Bill of Rights Day",
+    "suggested_offer": "🇺🇸 Rights Feast: 15% off patriotic dishes! 🍔",
+    "campaign_prompt": "Celebrate Bill of Rights Day with American classics"
+  },
+  {
+    "date": "2025-12-17",
+    "event": "Pan American Aviation Day",
+    "suggested_offer": "✈️ Aviation Feast: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Pan American Aviation Day with meal discounts"
+  },
+  {
+    "date": "2025-12-17",
+    "event": "Wright Brothers Day",
+    "suggested_offer": "🛩️ Aviation Special: 15% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate Wright Brothers Day with special offers"
+  },
+  {
+    "date": "2025-12-18",
+    "event": "International Migrants Day",
+    "suggested_offer": "🌍 Migration Feast: 15% off international dishes! 🍽️",
+    "campaign_prompt": "Celebrate migrants with global cuisine specials"
+  },
+  {
+    "date": "2025-12-18",
+    "event": "Arabic Language Day",
+    "suggested_offer": "🌙 Arabic Feast: 15% off Middle Eastern dishes! 🍽️",
+    "campaign_prompt": "Celebrate Arabic Language Day with authentic cuisine"
+  },
+  {
+    "date": "2025-12-20",
+    "event": "International Human Solidarity Day",
+    "suggested_offer": "🤝 Solidarity Feast: 15% off shared meals! 🍲",
+    "campaign_prompt": "Promote solidarity with communal dining specials"
+  },
+  {
+    "date": "2025-12-20",
+    "event": "Super Saturday",
+    "suggested_offer": "🎁 Holiday Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Special holiday discounts for Super Saturday"
+  },
+  {
+    "date": "2025-12-21",
+    "event": "December Solstice",
+    "suggested_offer": "❄️ Winter Feast: 20% off seasonal dishes! 🍲",
+    "campaign_prompt": "Celebrate winter solstice with hearty meals"
+  },
+  {
+    "date": "2025-12-22",
+    "event": "Last Day of Chanukah",
+    "suggested_offer": "🕎 Hanukkah Finale: 15% off kosher dishes! 🥯",
+    "campaign_prompt": "Celebrate last day of Hanukkah with special meals"
+  },
+  {
+    "date": "2025-12-24",
+    "event": "Christmas Eve",
+    "suggested_offer": "🎄 Christmas Eve Feast: Special holiday menu & 20% off! 🍽️",
+    "campaign_prompt": "Celebrate Christmas Eve with festive meals"
+  },
+  {
+    "date": "2025-12-25",
+    "event": "Christmas Day (All)",
+    "suggested_offer": "🎅 Christmas Feast: Special holiday menu & 25% off! 🍽️",
+    "campaign_prompt": "Celebrate Christmas Day with a big festive feast"
+  },
+  {
+    "date": "2025-12-26",
+    "event": "Kwanzaa (first day)",
+    "suggested_offer": "🖤 Kwanzaa Feast: 20% off traditional dishes! 🍛",
+    "campaign_prompt": "Celebrate Kwanzaa with authentic cuisine"
+  },
+  {
+    "date": "2025-12-26",
+    "event": "Day After Christmas Day",
+    "region": "NC, SC, TX",
+    "suggested_offer": "🎁 Boxing Day Feast: 20% off all meals! 🍽️",
+    "campaign_prompt": "Celebrate the day after Christmas with special deals"
+  },
+  {
+    "date": "2025-12-27",
+    "event": "International Day of Epidemic Preparedness",
+    "suggested_offer": "🩺 Health Special: 15% off immune-boosting meals! 🥗",
+    "campaign_prompt": "Promote health with special meal offers"
+  },
+  {
+    "date": "2025-12-30",
+    "event": "Asarah B'Tevet",
+    "suggested_offer": "🕯️ Reflective Meal: 15% off light vegetarian dishes! 🥗",
+    "campaign_prompt": "Offer respectful meals for Asarah B'Tevet"
+  },
+  {
+    "date": "2025-12-31",
+    "event": "New Year's Eve",
+    "suggested_offer": "🎉 NYE Feast: Celebrate with special menus & 25% off! 🥂",
+    "campaign_prompt": "Ring in the New Year with festive dining specials"
+  },
+  {
+    "date": "2025-12-31",
+    "event": "New Year's Eve (Michigan, Wisconsin)",
+    "region": "Michigan, Wisconsin",
+    "suggested_offer": "🎉 NYE Special: 25% off all meals! 🥂",
+    "campaign_prompt": "Celebrate New Year's Eve in MI & WI with special discounts"
+  }
+]
+ 
+
+
+
+
+
+
+
+

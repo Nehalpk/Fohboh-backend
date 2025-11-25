@@ -1,0 +1,614 @@
+{
+    "prompts": [
+        {
+            "id": "adora_count_inventory",
+            "text_patterns": [
+                "how many inventory",
+                "count inventory items",
+                "number of inventory",
+                "inventory count",
+                "total inventory",
+                "what is the total inventory",
+                "what's the total inventory",
+                "how much inventory"
+            ],
+            "sql": "SELECT store_id, COUNT(*) as total FROM store_inventory WHERE store_id IN %s GROUP BY store_id ORDER BY store_id",
+            "response": "Inventory counts by store: {results}"
+        },
+        {
+            "id": "adora_list_ingredients",
+            "text_patterns": [
+                "list ingredients",
+                "show ingredients",
+                "all ingredients",
+                "what ingredients",
+                "show me ingredients"
+            ],
+            "sql": "SELECT DISTINCT store_id, ingredient FROM store_inventory WHERE store_id IN %s ORDER BY store_id, ingredient",
+            "response": "Ingredients by store:\n{ingredients_list}"
+        },
+        {
+            "id": "adora_average_tip",
+            "text_patterns": [
+                "average tip",
+                "avg tip",
+                "tip percentage",
+                "average tip percentage",
+                "tip percent"
+            ],
+            "sql": "SELECT store_id, AVG((tip / NULLIF(total_amount, 0)) * 100) as avg_tip_percentage, COUNT(*) as total_orders, SUM(tip) as total_tips FROM store_sales WHERE store_id IN %s AND tip IS NOT NULL AND total_amount > 0 GROUP BY store_id ORDER BY store_id",
+            "supports_date_filtering": true,
+            "date_column": "sale_date",
+            "response": "Average tip percentage by store: {results}"
+        },
+        {
+            "id": "adora_menu_by_category",
+            "text_patterns": [
+                "menu items in each category",
+                "menu by category",
+                "items in each category",
+                "menu categories",
+                "category breakdown",
+                "how many menu items in each",
+                "menu balance",
+                "balanced menu"
+            ],
+            "sql": "SELECT store_id, category, COUNT(DISTINCT menu_item) as item_count, STRING_AGG(DISTINCT menu_item, ', ') as items FROM store_menu WHERE store_id IN %s AND category IS NOT NULL GROUP BY store_id, category ORDER BY store_id, item_count DESC",
+            "response": "Menu items by category: {results}"
+        },
+        {
+            "id": "adora_low_stock",
+            "text_patterns": [
+                "low stock",
+                "items low",
+                "what is low",
+                "running low",
+                "low inventory",
+                "items running low",
+                "what needs reordering"
+            ],
+            "sql": "SELECT store_id, ingredient, quantity, par_level, (par_level - quantity) as shortage FROM store_inventory WHERE store_id IN %s AND quantity < par_level ORDER BY store_id, (quantity / NULLIF(par_level, 1)) ASC",
+            "response": "**Low stock items by store:**\n{items_list}"
+        },
+        {
+            "id": "adora_search_ingredient",
+            "text_patterns": [
+                "find ",
+                "search for ",
+                "look for ",
+                "do we have ",
+                "do you have "
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT store_id, ingredient, quantity FROM store_inventory WHERE store_id IN %s AND ingredient ILIKE %s ORDER BY store_id",
+            "response": "Found {count} result(s) across stores:\n{results}"
+        },
+        {
+            "id": "adora_total_inventory_value",
+            "text_patterns": [
+                "total value",
+                "inventory value",
+                "worth of inventory",
+                "value of stock",
+                "how much is inventory worth"
+            ],
+            "sql": "SELECT store_id, SUM(quantity * unit_cost) as total_value FROM store_inventory WHERE store_id IN %s AND unit_cost IS NOT NULL GROUP BY store_id ORDER BY store_id",
+            "response": "Total inventory value by store: {results}"
+        },
+        {
+            "id": "adora_waste_items",
+            "text_patterns": [
+                "items with waste",
+                "waste inventory",
+                "wasted items",
+                "show waste",
+                "inventory waste"
+            ],
+            "sql": "SELECT store_id, ingredient, quantity, waste FROM store_inventory WHERE store_id IN %s AND waste > 0 ORDER BY store_id, waste DESC",
+            "response": "Items with waste by store:\n{items_list}"
+        },
+        {
+            "id": "adora_menu_items",
+            "text_patterns": [
+                "show menu",
+                "list menu",
+                "menu items",
+                "what's on the menu",
+                "what is on the menu",
+                "menu list",
+                "show me the menu"
+            ],
+            "sql": "SELECT store_id, menu_item, ingredient, amount, unit_cost FROM store_menu WHERE store_id IN %s ORDER BY store_id, menu_item",
+            "response": "Menu items by store: {results}"
+        },
+        {
+            "id": "adora_search_menu_item",
+            "text_patterns": [
+                "menu item ",
+                "find pizza",
+                "search menu for ",
+                "do you have pizza",
+                "show me pizza"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT store_id, menu_item, ingredient, amount, unit_cost FROM store_menu WHERE store_id IN %s AND menu_item ILIKE %s ORDER BY store_id",
+            "response": "Menu item search results: {results}"
+        },
+        {
+            "id": "adora_menu_by_ingredient",
+            "text_patterns": [
+                "menu with ",
+                "dishes with ",
+                "items containing ",
+                "menu items with "
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT store_id, menu_item, ingredient, amount FROM store_menu WHERE store_id IN %s AND ingredient ILIKE %s ORDER BY store_id, menu_item",
+            "response": "Menu items containing ingredient: {results}"
+        },
+        {
+            "id": "adora_expensive_menu_items",
+            "text_patterns": [
+                "most expensive",
+                "highest priced",
+                "expensive items",
+                "priciest menu",
+                "top priced"
+            ],
+            "sql": "SELECT store_id, menu_item, unit_cost FROM store_menu WHERE store_id IN %s AND unit_cost IS NOT NULL ORDER BY unit_cost DESC",
+            "response": "Most expensive menu items: {results}"
+        },
+        {
+            "id": "adora_sales_today",
+            "text_patterns": [
+                "sales today",
+                "today's sales",
+                "sales for today",
+                "how many sales today"
+            ],
+            "sql": "SELECT store_id, COUNT(*) as total_sales, SUM(total_amount) as total_revenue FROM store_sales WHERE store_id IN %s AND sale_date = CURRENT_DATE GROUP BY store_id ORDER BY store_id",
+            "response": "Today's sales by store: {results}"
+        },
+        {
+            "id": "adora_sales_by_date",
+            "text_patterns": [
+                "sales on ",
+                "sales for ",
+                "sales for date",
+                "sales on date",
+                "show me sales on",
+                "what were sales on"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT store_id, COUNT(*) as total_sales, SUM(total_amount) as total_revenue FROM store_sales WHERE store_id IN %s AND sale_date = %s GROUP BY store_id ORDER BY store_id",
+            "response": "Sales by store for specified date: {results}"
+        },
+        {
+            "id": "adora_sales_yesterday",
+            "text_patterns": [
+                "sales yesterday",
+                "yesterday's sales",
+                "sales for yesterday"
+            ],
+            "sql": "SELECT store_id, COUNT(*) as total_sales, SUM(total_amount) as total_revenue FROM store_sales WHERE store_id IN %s AND sale_date = CURRENT_DATE - INTERVAL '1 day' GROUP BY store_id ORDER BY store_id",
+            "response": "Yesterday's sales by store: {results}"
+        },
+        {
+            "id": "adora_sales_this_week",
+            "text_patterns": [
+                "sales this week",
+                "weekly sales",
+                "sales for the week",
+                "this week's sales"
+            ],
+            "sql": "SELECT store_id, COUNT(*) as total_sales, SUM(total_amount) as total_revenue, AVG(total_amount) as avg_order FROM store_sales WHERE store_id IN %s AND sale_date >= CURRENT_DATE - INTERVAL '7 days' GROUP BY store_id ORDER BY store_id",
+            "response": "This week's sales by store: {results}"
+        },
+        {
+            "id": "adora_top_selling_items",
+            "text_patterns": [
+                "top selling",
+                "best sellers",
+                "most popular items",
+                "what sells most",
+                "best selling items"
+            ],
+            "sql": "SELECT store_id, sold_items_name, SUM(number_of_items) as total_sold, COUNT(*) as order_count FROM store_sales WHERE store_id IN %s AND sold_items_name IS NOT NULL GROUP BY store_id, sold_items_name ORDER BY total_sold DESC",
+            "response": "Top selling items by store: {results}"
+        },
+        {
+            "id": "adora_sales_by_payment",
+            "text_patterns": [
+                "cash sales",
+                "credit card sales",
+                "payment method",
+                "sales by payment"
+            ],
+            "sql": "SELECT store_id, payment_method, COUNT(*) as transaction_count, SUM(total_amount) as total_revenue FROM store_sales WHERE store_id IN %s GROUP BY store_id, payment_method ORDER BY store_id, total_revenue DESC",
+            "response": "Sales by payment method: {results}"
+        },
+        {
+            "id": "adora_sales_by_order_type",
+            "text_patterns": [
+                "dine in sales",
+                "delivery sales",
+                "takeout sales",
+                "sales by order type"
+            ],
+            "sql": "SELECT store_id, order_type, COUNT(*) as order_count, SUM(total_amount) as total_revenue FROM store_sales WHERE store_id IN %s GROUP BY store_id, order_type ORDER BY store_id, total_revenue DESC",
+            "response": "Sales by order type: {results}"
+        },
+        {
+            "id": "adora_average_order_value",
+            "text_patterns": [
+                "average order",
+                "average sale",
+                "avg order value",
+                "average ticket"
+            ],
+            "sql": "SELECT store_id, AVG(total_amount) as avg_order_value, COUNT(*) as total_orders FROM store_sales WHERE store_id IN %s GROUP BY store_id ORDER BY store_id",
+            "response": "Average order value by store: {results}"
+        },
+        {
+            "id": "adora_list_employees",
+            "text_patterns": [
+                "list employees",
+                "show employees",
+                "all employees",
+                "staff list",
+                "who works here"
+            ],
+            "sql": "SELECT store_id, name, role, hire_date FROM store_employees WHERE store_id IN %s ORDER BY store_id, name",
+            "response": "Employees by store: {results}"
+        },
+        {
+            "id": "adora_count_employees",
+            "text_patterns": [
+                "how many employees",
+                "number of staff",
+                "employee count",
+                "staff count",
+                "total employees",
+                "total_employees",
+                "count employees"
+            ],
+            "sql": "SELECT store_id, COUNT(*) as total_employees FROM store_employees WHERE store_id IN %s GROUP BY store_id ORDER BY store_id",
+            "response": "Employee count by store: {results}"
+        },
+        {
+            "id": "adora_employees_by_role",
+            "text_patterns": [
+                "managers",
+                "cashiers",
+                "drivers",
+                "employees by role",
+                "who are the managers"
+            ],
+            "sql": "SELECT store_id, role, COUNT(*) as count, STRING_AGG(name, ', ') as employee_names FROM store_employees WHERE store_id IN %s GROUP BY store_id, role ORDER BY store_id, role",
+            "response": "Employees by role: {results}"
+        },
+        {
+            "id": "adora_search_employee",
+            "text_patterns": [
+                "find employee ",
+                "search for employee ",
+                "employee named ",
+                "does work here"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT store_id, employee_id, name, role, hire_date, hourly_rate FROM store_employees WHERE store_id IN %s AND name ILIKE %s ORDER BY store_id",
+            "response": "Employee search results: {results}"
+        },
+        {
+            "id": "adora_new_hires",
+            "text_patterns": [
+                "new employees",
+                "recent hires",
+                "newly hired",
+                "latest employees"
+            ],
+            "sql": "SELECT store_id, name, role, hire_date FROM store_employees WHERE store_id IN %s AND hire_date IS NOT NULL ORDER BY hire_date DESC",
+            "response": "Recent hires by store: {results}"
+        },
+        {
+            "id": "adora_kpi_key_metrics",
+            "text_patterns": [
+                "provide the total sales and food cost",
+                "total sales and food cost figures",
+                "key metrics",
+                "main kpis"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "all_kpis",
+            "supports_time_period": true,
+            "response": "Key Metrics Analysis: {results}"
+        },
+        {
+            "id": "adora_kpi_total_sales",
+            "text_patterns": [
+                "total sales",
+                "show total sales",
+                "what are total sales",
+                "calculate total sales",
+                "get total sales",
+                "total revenue",
+                "show me total revenue",
+                "what's the total revenue"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "total_sales",
+            "supports_time_period": true,
+            "response": "Total Sales KPI: {results}"
+        },
+        {
+            "id": "adora_kpi_net_revenue",
+            "text_patterns": [
+                "net revenue",
+                "show net revenue",
+                "revenue after discounts",
+                "calculate net revenue",
+                "what is net revenue",
+                "what's the net revenue"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "net_revenue",
+            "supports_time_period": true,
+            "response": "Net Revenue KPI: {results}"
+        },
+        {
+            "id": "adora_kpi_splh",
+            "text_patterns": [
+                "sales per labor hour",
+                "splh",
+                "labor productivity",
+                "sales per hour worked",
+                "calculate splh",
+                "show splh"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "splh",
+            "supports_time_period": true,
+            "response": "Sales per Labor Hour (SPLH): {results}"
+        },
+        {
+            "id": "adora_kpi_guest_count",
+            "text_patterns": [
+                "guest count",
+                "how many guests",
+                "total guests",
+                "total covers",
+                "customer count",
+                "how many customers",
+                "total customers",
+                "number of guests"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "guest_count",
+            "supports_time_period": true,
+            "response": "Guest Count KPI: {results}"
+        },
+        {
+            "id": "adora_kpi_avg_check",
+            "text_patterns": [
+                "average check",
+                "avg check",
+                "average spend per guest",
+                "average order value",
+                "what's the average check",
+                "show average check",
+                "calculate average check"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "avg_check",
+            "supports_time_period": true,
+            "response": "Average Check KPI: {results}"
+        },
+        {
+            "id": "adora_kpi_guest_and_check",
+            "text_patterns": [
+                "guest count and average check",
+                "guests and average check",
+                "customer count and avg check",
+                "guests and check size"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "guest_and_avg_check",
+            "supports_time_period": true,
+            "response": "Guest Count and Average Check: {results}"
+        },
+        {
+            "id": "adora_kpi_top_items",
+            "text_patterns": [
+                "top selling items kpi",
+                "best sellers analysis",
+                "most popular menu items"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "top_items",
+            "supports_time_period": true,
+            "response": "Top Selling Items: {results}"
+        },
+        {
+            "id": "adora_kpi_gross_profit",
+            "text_patterns": [
+                "gross profit per item",
+                "item profitability",
+                "profit by menu item",
+                "menu item margins"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "gross_profit_per_item",
+            "supports_time_period": true,
+            "response": "Gross Profit per Item: {results}"
+        },
+        {
+            "id": "adora_kpi_food_cost",
+            "text_patterns": [
+                "food cost",
+                "food cost percentage",
+                "food cost %",
+                "cogs percentage",
+                "calculate food cost",
+                "what is food cost",
+                "what's the food cost",
+                "show food cost",
+                "show me food cost percentage"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "food_cost_pct",
+            "supports_time_period": true,
+            "response": "Food Cost %: {results}"
+        },
+        {
+            "id": "adora_kpi_cogs_category",
+            "text_patterns": [
+                "cogs by category",
+                "cost breakdown by category",
+                "category costs",
+                "cogs analysis"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "cogs_by_category",
+            "supports_time_period": true,
+            "response": "COGS by Category: {results}"
+        },
+        {
+            "id": "adora_kpi_inventory_turnover",
+            "text_patterns": [
+                "inventory turnover",
+                "turnover rate",
+                "inventory turnover ratio",
+                "how fast inventory moves"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "inventory_turnover",
+            "supports_time_period": true,
+            "response": "Inventory Turnover Rate: {results}"
+        },
+        {
+            "id": "adora_kpi_low_inventory",
+            "text_patterns": [
+                "low inventory warnings kpi",
+                "items below par",
+                "inventory alerts",
+                "what needs ordering"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "low_inventory_warnings",
+            "supports_time_period": false,
+            "response": "Low Inventory Warnings: {results}"
+        },
+        {
+            "id": "adora_kpi_labor_hours",
+            "text_patterns": [
+                "labor hours by role",
+                "hours worked by position",
+                "labor distribution",
+                "staff hours breakdown"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "labor_hours_by_role",
+            "supports_time_period": true,
+            "response": "Labor Hours by Role: {results}"
+        },
+        {
+            "id": "adora_kpi_overtime",
+            "text_patterns": [
+                "overtime percentage",
+                "overtime hours",
+                "overtime analysis",
+                "how much overtime"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "overtime_pct",
+            "supports_time_period": true,
+            "response": "Overtime Hours %: {results}"
+        },
+        {
+            "id": "adora_kpi_popularity_profitability",
+            "text_patterns": [
+                "popularity vs profitability",
+                "menu engineering",
+                "star items",
+                "menu quadrant analysis"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "popularity_vs_profitability",
+            "supports_time_period": true,
+            "response": "Popularity vs Profitability Analysis: {results}"
+        },
+        {
+            "id": "adora_sales_date_range",
+            "text_patterns": [
+                "sales from",
+                "sales between",
+                "total amount from",
+                "total amount between",
+                "subtotal from",
+                "subtotal between",
+                "revenue from",
+                "revenue between",
+                "sales on"
+            ],
+            "supports_date_filtering": true,
+            "date_column": "sale_date",
+            "sql": "SELECT store_id, COUNT(*) as total_sales, SUM(total_amount) as total_revenue, AVG(total_amount) as avg_order FROM store_sales WHERE store_id IN %s GROUP BY store_id ORDER BY store_id",
+            "response": "Sales for specified date range: {results}"
+        },
+        {
+            "id": "adora_inventory_date_range",
+            "text_patterns": [
+                "inventory from",
+                "inventory between",
+                "inventory on",
+                "stock from",
+                "stock between"
+            ],
+            "supports_date_filtering": true,
+            "date_column": "inventory_date",
+            "sql": "SELECT store_id, inventory_date, ingredient, quantity, par_level, is_low FROM store_inventory WHERE store_id IN %s ORDER BY store_id, inventory_date DESC",
+            "response": "Inventory for specified date range: {results}"
+        },
+        {
+            "id": "adora_menu_updated_date_range",
+            "text_patterns": [
+                "menu updated from",
+                "menu updated between",
+                "menu changes from",
+                "menu changes between"
+            ],
+            "supports_date_filtering": true,
+            "date_column": "updated_at",
+            "sql": "SELECT store_id, menu_item, ingredient, amount, unit_cost, updated_at FROM store_menu WHERE store_id IN %s ORDER BY store_id, updated_at DESC",
+            "response": "Menu updates for specified date range: {results}"
+        },
+        {
+            "id": "adora_employees_hired_date_range",
+            "text_patterns": [
+                "employees hired from",
+                "employees hired between",
+                "new hires from",
+                "new hires between"
+            ],
+            "supports_date_filtering": true,
+            "date_column": "created_at",
+            "sql": "SELECT store_id, employee_id, name, role, hire_date, created_at FROM store_employees WHERE store_id IN %s ORDER BY store_id, created_at DESC",
+            "response": "Employees for specified date range: {results}"
+        },
+        {
+            "id": "adora_kpi_all",
+            "text_patterns": [
+                "calculate all kpis",
+                "show all kpis",
+                "kpi dashboard",
+                "all metrics",
+                "complete kpi analysis",
+                "full kpi report"
+            ],
+            "requires_kpi_calculation": true,
+            "kpi_name": "all_kpis",
+            "supports_time_period": true,
+            "response": "Complete KPI Analysis: {results}"
+        }
+    ]
+}

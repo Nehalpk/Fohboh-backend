@@ -1,0 +1,28 @@
+.venv/
+myenv/
+test.ipynb
+test.py
+__pycache__
+*.pyc
+
+test.ipynb
+test.py
+__pycache__
+chat_history.json
+.vscode
+/Test Data/
+/dummy/
+/cortex_memory/
+/Test files/
+.idea
+*.log
+redis/
+/Test files/
+.env
+/.env
+/.myenv
+/myenv
+/.venv
+myvenv/
+.env/
+venv/

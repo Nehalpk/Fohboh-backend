@@ -1,0 +1,597 @@
+{
+    "prompts": [
+        {
+            "id": "count_inventory",
+            "text_patterns": [
+                "how many inventory",
+                "count inventory items",
+                "count inventory",
+                "number of inventory",
+                "inventory count",
+                "total inventory",
+                "count inventory rows"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COUNT(ig.id) as total_rows FROM restaurants r LEFT JOIN inventory_graphs ig ON ig.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name ORDER BY r.name",
+            "category": "inventory"
+        },
+        {
+            "id": "list_unique_ingredients",
+            "text_patterns": [
+                "unique ingredients",
+                "distinct ingredients",
+                "different ingredients",
+                "all unique ingredients"
+            ],
+            "sql": "SELECT r.name as restaurant_name, ig.ingredient FROM restaurants r LEFT JOIN inventory_graphs ig ON ig.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND ig.ingredient IS NOT NULL GROUP BY r.name, ig.ingredient ORDER BY r.name, ig.ingredient",
+            "category": "inventory"
+        },
+        {
+            "id": "list_all_ingredients",
+            "text_patterns": [
+                "list ingredients",
+                "show ingredients",
+                "all ingredients",
+                "what ingredients",
+                "show me ingredients"
+            ],
+            "sql": "SELECT r.name as restaurant_name, ig.ingredient, ig.quantity, ig.unit_cost FROM restaurants r LEFT JOIN inventory_graphs ig ON ig.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND ig.ingredient IS NOT NULL ORDER BY r.name, ig.ingredient LIMIT 100",
+            "category": "inventory"
+        },
+        {
+            "id": "ingredient_quantity_total",
+            "text_patterns": [
+                "total quantity of",
+                "how much of ingredient",
+                "quantity for ingredient",
+                "sum quantity",
+                "total stock of"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT r.name as restaurant_name, ig.ingredient, SUM(ig.quantity) as total_quantity, COUNT(ig.id) as entry_count FROM restaurants r LEFT JOIN inventory_graphs ig ON ig.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND ig.ingredient ILIKE %s GROUP BY r.name, ig.ingredient ORDER BY r.name, total_quantity DESC",
+            "category": "inventory"
+        },
+        {
+            "id": "top_menu_items_by_sales",
+            "text_patterns": [
+                "top menu items by sales",
+                "best menu items",
+                "top selling menu items",
+                "best selling menu items",
+                "most popular menu items",
+                "highest revenue menu items",
+                "top dishes by sales",
+                "most ordered menu items",
+                "top 3 menu items",
+                "top 5 menu items",
+                "top 10 menu items"
+            ],
+            "sql": "SELECT r.name as restaurant_name, sg.items_sold, COUNT(DISTINCT sg.id) as times_ordered, SUM(sg.number_of_items) as total_quantity, SUM(sg.subtotal) as total_revenue, AVG(sg.subtotal) as avg_order_value FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND sg.items_sold IS NOT NULL AND sg.created_at >= CURRENT_DATE - INTERVAL '7 days' GROUP BY r.name, sg.items_sold ORDER BY total_revenue DESC LIMIT 3",
+            "category": "sales",
+            "supports_dynamic": true
+        },
+        {
+            "id": "low_stock",
+            "text_patterns": [
+                "low stock",
+                "items low",
+                "what is low",
+                "running low",
+                "low inventory"
+            ],
+            "sql": "SELECT r.name as restaurant_name, ig.ingredient, ig.quantity FROM restaurants r LEFT JOIN inventory_graphs ig ON ig.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND ig.alert = 'low' ORDER BY r.name, ig.quantity ASC LIMIT 20",
+            "category": "inventory"
+        },
+        {
+            "id": "search_ingredient",
+            "text_patterns": [
+                "find ingredient",
+                "search ingredient",
+                "look for ingredient",
+                "do we have"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT r.name as restaurant_name, ig.ingredient, ig.quantity, ig.unit_cost FROM restaurants r LEFT JOIN inventory_graphs ig ON ig.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND ig.ingredient ILIKE %s ORDER BY r.name LIMIT 10",
+            "category": "inventory"
+        },
+        {
+            "id": "sales_on_date",
+            "text_patterns": [
+                "sales on date",
+                "revenue on date",
+                "transactions on date",
+                "orders on date",
+                "business on date"
+            ],
+            "requires_date": true,
+            "sql": "SELECT r.name as restaurant_name, COUNT(sg.id) as transaction_count, COALESCE(SUM(sg.subtotal), 0) as total_subtotal, COALESCE(SUM(sg.total_amount), 0) as total_amount, COALESCE(AVG(sg.subtotal), 0) as avg_subtotal, COALESCE(SUM(sg.tip), 0) as total_tips FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND DATE(sg.created_at) = %s GROUP BY r.name ORDER BY r.name",
+            "category": "sales"
+        },
+        {
+            "id": "list_employee_names",
+            "text_patterns": [
+                "list employees",
+                "show employees",
+                "employee names",
+                "all employees",
+                "who works here"
+            ],
+            "sql": "SELECT DISTINCT r.name as restaurant_name, eg.employee_name, eg.position, eg.role FROM restaurants r LEFT JOIN employees_graphs eg ON eg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND eg.employee_name IS NOT NULL ORDER BY r.name, eg.employee_name LIMIT 100",
+            "category": "employees"
+        },
+        {
+            "id": "employee_roles_positions",
+            "text_patterns": [
+                "employee roles",
+                "employee positions",
+                "what position is",
+                "job titles",
+                "staff roles"
+            ],
+            "sql": "SELECT r.name as restaurant_name, eg.employee_name, COALESCE(eg.position, eg.role, 'No Position') as position_role FROM restaurants r LEFT JOIN employees_graphs eg ON eg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND eg.employee_name IS NOT NULL ORDER BY r.name, eg.employee_name LIMIT 100",
+            "category": "employees"
+        },
+        {
+            "id": "employee_hourly_rate",
+            "text_patterns": [
+                "hourly rate for",
+                "how much does",
+                "pay for",
+                "wage for",
+                "salary of"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT DISTINCT r.name as restaurant_name, eg.employee_name, COALESCE(eg.position, eg.role) as position, eg.hourly_rate FROM restaurants r LEFT JOIN employees_graphs eg ON eg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND eg.employee_name ILIKE %s ORDER BY r.name, eg.hourly_rate DESC",
+            "category": "employees"
+        },
+        {
+            "id": "count_employees",
+            "text_patterns": [
+                "how many employees",
+                "count employees",
+                "number of employees",
+                "total employees"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COUNT(DISTINCT eg.employee_name) as total_employees FROM restaurants r LEFT JOIN employees_graphs eg ON eg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name ORDER BY r.name",
+            "category": "employees"
+        },
+        {
+            "id": "employees_by_position",
+            "text_patterns": [
+                "employees by position",
+                "how many servers",
+                "how many managers",
+                "staff by role"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COALESCE(eg.position, eg.role, 'No Position') as position_role, COUNT(DISTINCT eg.employee_name) as employee_count FROM restaurants r LEFT JOIN employees_graphs eg ON eg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name, position_role ORDER BY r.name, employee_count DESC",
+            "category": "employees"
+        },
+        {
+            "id": "list_menu_items",
+            "text_patterns": [
+                "list menu items",
+                "show menu",
+                "menu items",
+                "what's on menu",
+                "item names"
+            ],
+            "sql": "SELECT DISTINCT r.name as restaurant_name, mg.item_name FROM restaurants r LEFT JOIN menu_graphs mg ON mg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND mg.item_name IS NOT NULL ORDER BY r.name, mg.item_name LIMIT 100",
+            "category": "menu"
+        },
+        {
+            "id": "menu_item_cost",
+            "text_patterns": [
+                "cost of",
+                "price for",
+                "unit cost",
+                "how much is",
+                "what does cost"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT DISTINCT r.name as restaurant_name, mg.item_name, mg.unit_cost, mg.selling_price, mg.profit_margin FROM restaurants r LEFT JOIN menu_graphs mg ON mg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND mg.item_name ILIKE %s ORDER BY r.name",
+            "category": "menu"
+        },
+        {
+            "id": "menu_item_ingredients",
+            "text_patterns": [
+                "ingredients in",
+                "what's in",
+                "ingredients for",
+                "recipe for",
+                "made with"
+            ],
+            "requires_keyword": true,
+            "sql": "SELECT DISTINCT r.name as restaurant_name, mg.item_name, mg.ingredients FROM restaurants r LEFT JOIN menu_graphs mg ON mg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND mg.item_name ILIKE %s AND mg.ingredients IS NOT NULL ORDER BY r.name",
+            "category": "menu"
+        },
+        {
+            "id": "count_menu_items",
+            "text_patterns": [
+                "how many menu items",
+                "count menu",
+                "number of dishes",
+                "menu size"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COUNT(DISTINCT mg.item_name) as total_items FROM restaurants r LEFT JOIN menu_graphs mg ON mg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name ORDER BY r.name",
+            "category": "menu"
+        },
+        {
+            "id": "menu_by_category",
+            "text_patterns": [
+                "menu by category",
+                "items by category",
+                "category breakdown"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COALESCE(mg.category, 'No Category') as category, COUNT(DISTINCT mg.item_name) as item_count FROM restaurants r LEFT JOIN menu_graphs mg ON mg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name, mg.category ORDER BY r.name, item_count DESC",
+            "category": "menu"
+        },
+        {
+            "id": "total_sales",
+            "text_patterns": [
+                "total subtotal",
+                "sales total",
+                "how much sales"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COUNT(sg.id) as transaction_count, COALESCE(SUM(sg.subtotal), 0) as total_subtotal, COALESCE(SUM(sg.total_amount), 0) as total_amount, COALESCE(AVG(sg.subtotal), 0) as avg_subtotal FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name ORDER BY r.name",
+            "category": "sales"
+        },
+        {
+            "id": "sales_by_payment",
+            "text_patterns": [
+                "sales by payment",
+                "payment methods",
+                "breakdown by payment"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COALESCE(sg.payment_method, 'No Data') as payment_method, COUNT(sg.id) as transaction_count, COALESCE(SUM(sg.subtotal), 0) as total_subtotal FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name, sg.payment_method ORDER BY r.name, total_subtotal DESC",
+            "category": "sales"
+        },
+        {
+            "id": "sales_by_order_type",
+            "text_patterns": [
+                "sales by order type",
+                "delivery sales",
+                "dine-in sales",
+                "takeaway sales"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COALESCE(sg.order_type, 'No Data') as order_type, COUNT(sg.id) as order_count, COALESCE(SUM(sg.subtotal), 0) as total_subtotal FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) GROUP BY r.name, sg.order_type ORDER BY r.name, total_subtotal DESC",
+            "category": "sales"
+        },
+        {
+            "id": "top_selling_items",
+            "text_patterns": [
+                "top selling items",
+                "best sellers",
+                "most popular items"
+            ],
+            "sql": "SELECT r.name as restaurant_name, sg.items_sold, COUNT(sg.id) as times_ordered, SUM(sg.number_of_items) as total_quantity FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND sg.items_sold IS NOT NULL GROUP BY r.name, sg.items_sold ORDER BY r.name, times_ordered DESC LIMIT 20",
+            "category": "sales"
+        },
+        {
+            "id": "average_tip",
+            "text_patterns": [
+                "average tip",
+                "tip amount",
+                "how much tip"
+            ],
+            "sql": "SELECT r.name as restaurant_name, COALESCE(AVG(sg.tip), 0) as avg_tip, COALESCE(SUM(sg.tip), 0) as total_tips FROM restaurants r LEFT JOIN sales_graphs sg ON sg.restaurant_id = r.id WHERE r.name = ANY(%s::text[]) AND sg.tip > 0 GROUP BY r.name ORDER BY r.name",
+            "category": "sales"
+        },
+        {
+            "id": "kpi_total_sales",
+            "text_patterns": [
+                "total sales",
+                "calculate total sales",
+                "show total sales",
+                "show me total sales",
+                "get total sales",
+                "what are total sales",
+                "what's total sales",
+                "what are the total sales",
+                "give me total sales",
+                "total sales for",
+                "sales kpi",
+                "revenue total",
+                "total sales last week",
+                "total sales past week",
+                "total sales this week",
+                "total sales last month",
+                "total sales past month",
+                "total sales this month",
+                "total sales last 15 days",
+                "total sales past 15 days",
+                "total sales last 6 months",
+                "total sales past 6 months",
+                "total sales last year",
+                "total sales past year",
+                "total sales all time"
+            ],
+            "category": "kpi",
+            "kpi_type": "total_sales",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_net_revenue",
+            "text_patterns": [
+                "net revenue",
+                "calculate net revenue",
+                "show net revenue",
+                "show me net revenue",
+                "what's net revenue",
+                "what is net revenue",
+                "get net revenue",
+                "revenue after discounts",
+                "net sales",
+                "total revenue",
+                "net revenue last week",
+                "net revenue past week",
+                "net revenue last month",
+                "net revenue past month",
+                "net revenue last 15 days",
+                "net revenue last 6 months",
+                "net revenue last year"
+            ],
+            "category": "kpi",
+            "kpi_type": "net_revenue",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_splh",
+            "text_patterns": [
+                "sales per labor hour",
+                "splh",
+                "show me splh",
+                "what is splh",
+                "labor efficiency",
+                "revenue per hour worked",
+                "sales per hour",
+                "splh last week",
+                "splh last month",
+                "splh last 15 days",
+                "splh last 6 months",
+                "labor efficiency last week",
+                "sales per labor hour last month"
+            ],
+            "category": "kpi",
+            "kpi_type": "splh",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_guest_count",
+            "text_patterns": [
+                "guest count",
+                "total guests",
+                "number of guests",
+                "how many guests",
+                "show me guest count",
+                "covers",
+                "customer count",
+                "total customers",
+                "guest count last week",
+                "guest count last month",
+                "guest count last 15 days",
+                "guest count last 6 months",
+                "how many guests last week",
+                "covers last month"
+            ],
+            "category": "kpi",
+            "kpi_type": "guest_count",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_avg_check",
+            "text_patterns": [
+                "average check",
+                "avg check",
+                "show me average check",
+                "what is average check",
+                "average spend per guest",
+                "avg check size",
+                "check average",
+                "average order value",
+                "average check last week",
+                "average check last month",
+                "average check last 15 days",
+                "avg check last 6 months",
+                "average order value last week"
+            ],
+            "category": "kpi",
+            "kpi_type": "avg_check",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_top_items",
+            "text_patterns": [
+                "top selling items",
+                "top items",
+                "best selling menu items",
+                "most popular items",
+                "top menu items",
+                "best sellers",
+                "top items analysis",
+                "top selling items last week",
+                "top items last month",
+                "best sellers last 15 days",
+                "most popular items last 6 months"
+            ],
+            "category": "kpi",
+            "kpi_type": "top_items",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_gross_profit_per_item",
+            "text_patterns": [
+                "gross profit per item",
+                "profit per item",
+                "item profitability",
+                "profit margin per item",
+                "gross profit by item",
+                "profit per menu item",
+                "gross profit per item last week",
+                "profit per item last month",
+                "item profitability last 15 days"
+            ],
+            "category": "kpi",
+            "kpi_type": "gross_profit_per_item",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_food_cost",
+            "text_patterns": [
+                "food cost",
+                "food cost percentage",
+                "food cost %",
+                "food cost pct",
+                "show me food cost",
+                "what is food cost",
+                "get food cost",
+                "food cost kpi",
+                "cogs percentage",
+                "cogs %",
+                "theoretical food cost",
+                "food cost last week",
+                "food cost % last week",
+                "food cost last month",
+                "food cost percentage last month",
+                "food cost last 15 days",
+                "food cost % last 15 days",
+                "food cost last 6 months",
+                "food cost past 6 months",
+                "cogs % last week"
+            ],
+            "category": "kpi",
+            "kpi_type": "food_cost_pct",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_cogs_category",
+            "text_patterns": [
+                "cogs by category",
+                "cost of goods by category",
+                "category cogs breakdown",
+                "cogs breakdown",
+                "cogs by category last week",
+                "cogs by category last month",
+                "category cogs last 15 days"
+            ],
+            "category": "kpi",
+            "kpi_type": "cogs_by_category",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_inventory_turnover",
+            "text_patterns": [
+                "inventory turnover",
+                "inventory turnover rate",
+                "stock turnover",
+                "turnover rate",
+                "inventory turnover last week",
+                "inventory turnover last month",
+                "stock turnover last 15 days",
+                "inventory turnover last 6 months"
+            ],
+            "category": "kpi",
+            "kpi_type": "inventory_turnover",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_low_inventory",
+            "text_patterns": [
+                "low inventory warnings",
+                "low inventory",
+                "items below par",
+                "stock alerts",
+                "reorder warnings",
+                "what needs reorder",
+                "low stock items",
+                "out of stock"
+            ],
+            "category": "kpi",
+            "kpi_type": "low_inventory_warnings",
+            "supports_time_period": false
+        },
+        {
+            "id": "kpi_labor_hours",
+            "text_patterns": [
+                "labor hours by role",
+                "labor hours",
+                "hours worked by position",
+                "staff hours breakdown",
+                "employee hours",
+                "labor hours last week",
+                "labor hours last month",
+                "labor hours by role last 15 days",
+                "hours worked last 6 months"
+            ],
+            "category": "kpi",
+            "kpi_type": "labor_hours_by_role",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_overtime",
+            "text_patterns": [
+                "overtime percentage",
+                "overtime",
+                "overtime hours",
+                "ot percentage",
+                "how much overtime",
+                "overtime % last week",
+                "overtime last month",
+                "overtime hours last 15 days",
+                "overtime percentage last 6 months"
+            ],
+            "category": "kpi",
+            "kpi_type": "overtime_pct",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_popularity_profitability",
+            "text_patterns": [
+                "menu engineering",
+                "popularity vs profitability",
+                "menu item quadrants",
+                "stars plowhorses puzzles dogs",
+                "menu analysis",
+                "star plow horse puzzle dog",
+                "menu engineering last week",
+                "popularity vs profitability last month",
+                "menu analysis last 15 days"
+            ],
+            "category": "kpi",
+            "kpi_type": "popularity_vs_profitability",
+            "supports_time_period": true
+        },
+        {
+            "id": "kpi_all",
+            "text_patterns": [
+                "calculate all kpis",
+                "show all kpis",
+                "show me all kpis",
+                "get all kpis",
+                "full kpi report",
+                "complete kpi analysis",
+                "all metrics",
+                "all kpis",
+                "sales and food cost",
+                "total sales and food cost",
+                "revenue and food cost",
+                "sales and cogs",
+                "multiple kpis",
+                "several kpis",
+                "all kpis last week",
+                "all kpis last month",
+                "full kpi report last 15 days",
+                "all metrics last 6 months",
+                "complete kpi last year",
+                "sales and food cost last week",
+                "total sales and food cost last month",
+                "revenue and food cost last 15 days",
+                "sales and food cost % last week",
+                "total sales and food cost % last month",
+                "show me total sales and food cost",
+                "show total sales and food cost %"
+            ],
+            "category": "kpi",
+            "kpi_type": "all_kpis",
+            "supports_time_period": true
+        }
+    ]
+}
